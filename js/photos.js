@@ -1,4 +1,4 @@
-
+// might not need this bootstrap added 
 // Open the Modal
 function openModal() {
   document.getElementById("myModal").style.display = "block";
