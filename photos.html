@@ -53,8 +53,69 @@
 <!-- carousel of tree images/ examples of how images can be used on website -->
 
 <body>
-  <!-- below works so bootstrap is working but carousel example isnt  -->
-  <!-- <button type="button" class="btn btn-primary">Primary</button>  -->
+<!-- Modal gallery -->
+<div class="container">
+    <div class="row">
+        <!-- Image 1 -->
+        <div class="col-md-4">
+            <a href="#" data-toggle="modal" data-target="#myModal1">
+                <img src="./assets/images/IMG_0560.JPG" class="img-thumbnail" alt="Image 1">
+            </a>
+        </div>
+
+        <!-- Image 2 -->
+        <div class="col-md-4">
+            <a href="#" data-toggle="modal" data-target="#myModal2">
+                <img src="./assets/images/IMG_0560.JPG" class="img-thumbnail" alt="Image 2">
+            </a>
+        </div>
+
+        <!-- Image 3 -->
+        <div class="col-md-4">
+            <a href="#" data-toggle="modal" data-target="#myModal3">
+                <img src="./assets/images/IMG_0560.JPG" class="img-thumbnail" alt="Image 3">
+            </a>
+        </div>
+    </div>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="./assets/images/IMG_0560.JPG" class="img-fluid" alt="Image 1">
+                    <p>Your text for Image 1 goes here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="./assets/images/IMG_0560.JPG" class="img-fluid" alt="Image 2">
+                    <p>Your text for Image 2 goes here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="./assets/images/IMG_0560.JPG" class="img-fluid" alt="Image 3">
+                    <p>Your text for Image 3 goes here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
   <section class="gallery1">
     <h2>Photos</h2>
     <img src="https://picsum.photos/id/1059/300/300" alt="many clothes and pictures">
@@ -82,7 +143,7 @@
           <li data-target="#myCarousel" data-slide-to="5"></li>
           <li data-target="#myCarousel" data-slide-to="6"></li>
           <li data-target="#myCarousel" data-slide-to="7"></li>
-          <li data-target="#myCarousel" data-slide-to="8"></li>
+         
         </ol>
 
         <!-- Wrapper for slides -->
@@ -92,15 +153,11 @@
           </div>
 
           <div class="item">
-            <img src="./assets/images/tree2.jpg" alt="tree pic 2" style="width:100%;">
+            <img src="./assets/images/tree3.jpg" alt="tree pic 2" style="width:100%;">
           </div>
 
            <div class="item">
-            <img src="./assets/images/tree3.jpg" alt="tree pic 3" style="width:100%;">
-          </div>
-
-           <div class="item">
-            <img src="./assets/images/tree4.jpg" alt="tree pic 4" style="width:100%;">
+            <img src="./assets/images/tree4.jpg" alt="tree pic 3" style="width:100%;">
           </div>
 
            <div class="item">
@@ -153,79 +210,8 @@
     <div class="keys">Use left and right keys to navigate</div>
 </form> -->
   </section>
-  <section>
-    <h2>modal(lightbox)</h2>
-    <!-- Images used to open the lightbox -->
+<!-- Button trigger modal -->
 
-    <div class="row">
-      <div class="column">
-        <img src="https://picsum.photos/id/1059/300/300" onclick="openModal();currentSlide(1)" class="hover-shadow">
-      </div>
-      <div class="column">
-        <img src="https://picsum.photos/id/1060/300/300" onclick="openModal();currentSlide(2)" class="hover-shadow">
-      </div>
-      <div class="column">
-        <img src="https://picsum.photos/id/1060/300/300" onclick="openModal();currentSlide(3)" class="hover-shadow">
-      </div>
-      <div class="column">
-        <img src="https://picsum.photos/id/1060/300/300" onclick="openModal();currentSlide(4)" class="hover-shadow">
-      </div>
-    </div>
-
-    <!-- The Modal/Lightbox -->
-    <div id="myModal" class="modal">
-      <!-- x to close is too high if it doesnt work use &amp;times instead of &times -->
-      <!-- <span class="close cursor" onclick="closeModal()">&times;</span> -->
-      <div class="modal-content">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
-        <div class="mySlides">
-          <div class="slideNumbers">1 / 4</div>
-          <img src="https://picsum.photos/id/1059/300/300" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-          <div class="slideNumbers">2 / 4</div>
-          <img src="https://picsum.photos/id/1060/300/300" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-          <div class="slideNumbers">3 / 4</div>
-          <img src="https://picsum.photos/id/1060/300/300" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-          <div class="slideNumbers">4 / 4</div>
-          <img src="https://picsum.photos/id/1060/300/300" style="width:100%">
-        </div>
-
-        <!-- Next/previous controls -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-        <!-- Caption text -->
-        <div class="caption-container">
-          <p id="caption"></p>
-        </div>
-
-        <!-- Thumbnail image controls -->
-        <div class="column">
-          <img class="demo" src="https://picsum.photos/id/1059/300/300" onclick="currentSlide(1)" alt="Nature">
-        </div>
-
-        <div class="column">
-          <img class="demo" src="https://picsum.photos/id/1060/300/300" onclick="currentSlide(2)" alt="Snow">
-        </div>
-
-        <div class="column">
-          <img class="demo" src="https://picsum.photos/id/1060/300/300" onclick="currentSlide(3)" alt="Mountains">
-        </div>
-
-        <div class="column">
-          <img class="demo" src="https://picsum.photos/id/1060/300/300" onclick="currentSlide(4)" alt="Lights">
-        </div>
-      </div>
-    </div>
-  </section>
   <!-- <script src="./js/photos.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
