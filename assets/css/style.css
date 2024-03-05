@@ -71,10 +71,15 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background: var(--primary-color);
-  color: var(--secondary-color);
+  /* silver and blue */
+  background: silver;
+  color: var(--primary-color);
   border-radius: 15px;
   text-shadow: none;
+  background: linear-gradient(90deg, #000fff , #4b4a4a);
+  background-size: 150% 100%;
+  background-position: 100% 0;
+  transition: background-position 1s ease-in-out;
 }
 
 /* HEADER / NAVBAR STYLES END */

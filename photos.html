@@ -1,99 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css" /> 
-    <!-- <link rel="stylesheet" href="./assets/css/photos-styles.css" />    -->
-    <!-- not the same script and rel as web.html but the carousel works -->
-    <!-- below link messes up header but makes carousel work use below or <link href="https://cdn.jsdelivr.net/npm/b...  -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- <link rel="stylesheet" href="./assets/css/photos-styles.css" />    -->
+  <!-- not the same script and rel as web.html but the carousel works -->
+  <!-- below link messes up header but makes carousel work use below or <link href="https://cdn.jsdelivr.net/npm/b...  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet"> -->
-    <!-- taking out below didnt affect page -->
-    <!-- <link rel="stylesheet" href="./assets/css/secondary-styles.css" /> -->
-    <title>E TECHNOLOGIES</title>
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet"> -->
+  <!-- taking out below didnt affect page -->
+  <!-- <link rel="stylesheet" href="./assets/css/secondary-styles.css" /> -->
+  <title>E TECHNOLOGIES</title>
 </head>
 
 
 
-<header >
+<header>
 
-  <h1  href="#">
-    <img src="./assets/images/LogoNoBg.png"
-    height="75"
-    alt="Logo"
-    loading="lazy" />
+  <h1 href="#">
+    <img src="./assets/images/LogoNoBg.png" height="75" alt="Logo" loading="lazy" />
     E TECHNOLOGIES
-</h1>
-  <nav >
-      <ul>
-          <li>
-              <a href="./index.html">Home</a>
-          </li>
-          <li>
-              <a href="./index.html">Website Design</a>
-          </li>
-          <li>
-              <a href="./index.html">Social Media</a>
-          </li>
-          <li>
-              <a href="./index.html">Advertising</a>
-          </li>
-          <li>
-              <a href="./photos.html">Photos</a>
-          </li>
-          <li>
-              <a href="./index.html">Contact Us</a>
-          </li>
-      </ul>
+  </h1>
+  <nav>
+    <ul>
+      <li>
+        <a href="./index.html">Home</a>
+      </li>
+      <li>
+        <a href="./index.html">Website Design</a>
+      </li>
+      <li>
+        <a href="./index.html">Social Media</a>
+      </li>
+      <li>
+        <a href="./index.html">Advertising</a>
+      </li>
+      <li>
+        <a href="./photos.html">Photos</a>
+      </li>
+      <li>
+        <a href="./index.html">Contact Us</a>
+      </li>
+    </ul>
   </nav>
 </header>
 <!-- carousel of tree images/ examples of how images can be used on website -->
+
 <body>
   <!-- below works so bootstrap is working but carousel example isnt  -->
   <!-- <button type="button" class="btn btn-primary">Primary</button>  -->
-    <section class="gallery1">
-        <h2>Photos</h2>
-        <img src="https://picsum.photos/id/1059/300/300" alt="many clothes and pictures">
-        <img src="https://picsum.photos/id/1060/300/300" alt="someone preparing artisanal coffee">
-        <img src="https://picsum.photos/id/225/300/300" alt="some tee">
+  <section class="gallery1">
+    <h2>Photos</h2>
+    <img src="https://picsum.photos/id/1059/300/300" alt="many clothes and pictures">
+    <img src="https://picsum.photos/id/1060/300/300" alt="someone preparing artisanal coffee">
+    <img src="https://picsum.photos/id/225/300/300" alt="some tee">
     <img src="https://picsum.photos/id/163/300/300" alt="an empty table in a restaurant">
     <img src="https://picsum.photos/id/180/300/300" alt="a laptop with a notebook">
     <img src="https://picsum.photos/id/20/300/300" alt="a laptop and many books around it">
-    </section>
+  </section>
 
-<!-- it doesnt have controls if it doesnt say form -->
-<section>
-<h2>carousel</h2>
+  <!-- it doesnt have controls if it doesnt say form -->
+  <section>
+    <h2>carousel</h2>
 
-<div class="container">
-  <h2>Carousel Example</h2>  
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
+    <div class="container">
+      <h2>Carousel Example</h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+          <li data-target="#myCarousel" data-slide-to="6"></li>
+          <li data-target="#myCarousel" data-slide-to="7"></li>
+          <li data-target="#myCarousel" data-slide-to="8"></li>
+        </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="./assets/images/IMG_0560.JPG" alt="Los Angeles" style="width:100%;">
-      </div>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="./assets/images/tree1.jpg" alt=" tree pic 1" style="width:100%;">
+          </div>
 
-      <div class="item">
-        <img src="chicago.jpg" alt="Chicago" style="width:100%;">
-      </div>
-    
-      <div class="item">
-        <img src="ny.jpg" alt="New york" style="width:100%;">
-      </div>
-    </div>
+          <div class="item">
+            <img src="./assets/images/tree2.jpg" alt="tree pic 2" style="width:100%;">
+          </div>
+
+           <div class="item">
+            <img src="./assets/images/tree3.jpg" alt="tree pic 3" style="width:100%;">
+          </div>
+
+           <div class="item">
+            <img src="./assets/images/tree4.jpg" alt="tree pic 4" style="width:100%;">
+          </div>
+
+           <div class="item">
+            <img src="./assets/images/tree5.jpg" alt="tree pic 5" style="width:100%;">
+          </div>
+
+           <div class="item">
+            <img src="./assets/images/tree6.jpg" alt="tree pic 6" style="width:100%;">
+          </div>
+
+           <div class="item">
+            <img src="./assets/images/tree7.jpg" alt="tree pic 7" style="width:100%;">
+          </div>
+
+          <div class="item">
+            <img src="./assets/images/tree8.jpg" alt="tree pic 8" style="width:100%;">
+          </div>
+
+           <div class="item">
+            <img src="./assets/images/tree9.jpg" alt="tree pic 9" style="width:100%;">
+          </div>
+        </div>
+
+
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -104,13 +135,13 @@
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
-  </div>
-</div>
+    </div>
+    </div>
 
 
 
 
-<!-- <form>
+    <!-- <form>
     
     
     <input type="radio" name="fancy" autofocus value="clubs" id="clubs" />
@@ -121,84 +152,84 @@
 
     <div class="keys">Use left and right keys to navigate</div>
 </form> -->
-</section>
-<section>
+  </section>
+  <section>
     <h2>modal(lightbox)</h2>
     <!-- Images used to open the lightbox -->
-    
-<div class="row">
-    <div class="column">
-      <img src="https://picsum.photos/id/1059/300/300" onclick="openModal();currentSlide(1)" class="hover-shadow">
+
+    <div class="row">
+      <div class="column">
+        <img src="https://picsum.photos/id/1059/300/300" onclick="openModal();currentSlide(1)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="https://picsum.photos/id/1060/300/300" onclick="openModal();currentSlide(2)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="https://picsum.photos/id/1060/300/300" onclick="openModal();currentSlide(3)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="https://picsum.photos/id/1060/300/300" onclick="openModal();currentSlide(4)" class="hover-shadow">
+      </div>
     </div>
-    <div class="column">
-      <img src="https://picsum.photos/id/1060/300/300" onclick="openModal();currentSlide(2)" class="hover-shadow">
-    </div>
-    <div class="column">
-      <img src="https://picsum.photos/id/1060/300/300" onclick="openModal();currentSlide(3)" class="hover-shadow">
-    </div>
-    <div class="column">
-      <img src="https://picsum.photos/id/1060/300/300" onclick="openModal();currentSlide(4)" class="hover-shadow">
-    </div>
-  </div>
-  
-  <!-- The Modal/Lightbox -->
-  <div id="myModal" class="modal">
-    <!-- x to close is too high if it doesnt work use &amp;times instead of &times -->
-    <!-- <span class="close cursor" onclick="closeModal()">&times;</span> -->
-    <div class="modal-content">
+
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+      <!-- x to close is too high if it doesnt work use &amp;times instead of &times -->
+      <!-- <span class="close cursor" onclick="closeModal()">&times;</span> -->
+      <div class="modal-content">
         <span class="close cursor" onclick="closeModal()">&times;</span>
-      <div class="mySlides">
-        <div class="slideNumbers">1 / 4</div>
-        <img src="https://picsum.photos/id/1059/300/300" style="width:100%">
-      </div>
-  
-      <div class="mySlides">
-        <div class="slideNumbers">2 / 4</div>
-        <img src="https://picsum.photos/id/1060/300/300" style="width:100%">
-      </div>
-  
-      <div class="mySlides">
-        <div class="slideNumbers">3 / 4</div>
-        <img src="https://picsum.photos/id/1060/300/300" style="width:100%">
-      </div>
-  
-      <div class="mySlides">
-        <div class="slideNumbers">4 / 4</div>
-        <img src="https://picsum.photos/id/1060/300/300" style="width:100%">
-      </div>
-  
-      <!-- Next/previous controls -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  
-      <!-- Caption text -->
-      <div class="caption-container">
-        <p id="caption"></p>
-      </div>
-  
-      <!-- Thumbnail image controls -->
-      <div class="column">
-        <img class="demo" src="https://picsum.photos/id/1059/300/300" onclick="currentSlide(1)" alt="Nature">
-      </div>
-  
-      <div class="column">
-        <img class="demo" src="https://picsum.photos/id/1060/300/300" onclick="currentSlide(2)" alt="Snow">
-      </div>
-  
-      <div class="column">
-        <img class="demo" src="https://picsum.photos/id/1060/300/300" onclick="currentSlide(3)" alt="Mountains">
-      </div>
-  
-      <div class="column">
-        <img class="demo" src="https://picsum.photos/id/1060/300/300" onclick="currentSlide(4)" alt="Lights">
+        <div class="mySlides">
+          <div class="slideNumbers">1 / 4</div>
+          <img src="https://picsum.photos/id/1059/300/300" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="slideNumbers">2 / 4</div>
+          <img src="https://picsum.photos/id/1060/300/300" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="slideNumbers">3 / 4</div>
+          <img src="https://picsum.photos/id/1060/300/300" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="slideNumbers">4 / 4</div>
+          <img src="https://picsum.photos/id/1060/300/300" style="width:100%">
+        </div>
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Caption text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail image controls -->
+        <div class="column">
+          <img class="demo" src="https://picsum.photos/id/1059/300/300" onclick="currentSlide(1)" alt="Nature">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="https://picsum.photos/id/1060/300/300" onclick="currentSlide(2)" alt="Snow">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="https://picsum.photos/id/1060/300/300" onclick="currentSlide(3)" alt="Mountains">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="https://picsum.photos/id/1060/300/300" onclick="currentSlide(4)" alt="Lights">
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- <script src="./js/photos.js"></script> -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-crossorigin="anonymous"></script>
+  </section>
+  <!-- <script src="./js/photos.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 
@@ -226,16 +257,16 @@ crossorigin="anonymous"></script>
         <div class="item"></div>
         <main>
         </body> -->
-        <div>
-            
-            <footer>
-          <h2>E TECHNOLOGIES.</h2>
-          
-          <div>
-              <a href="./privacy-policy.html">Read Our Privacy Policy</a> <br/>
-              &copy; 22024 E TECHNOLOGIES.
-            </div>
-        </footer>
+<div>
+
+  <footer>
+    <h2>E TECHNOLOGIES.</h2>
+
+    <div>
+      <a href="./privacy-policy.html">Read Our Privacy Policy</a> <br />
+      &copy; 22024 E TECHNOLOGIES.
     </div>
+  </footer>
+</div>
 
 </html>
