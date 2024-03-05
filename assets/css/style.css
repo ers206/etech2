@@ -304,11 +304,11 @@ section {
 
 
 /* WHAT YOU DO STYLES START */
-.steps {
+.smS {
   background: var(--primary-color);
 }
 
-.step {
+.sm {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
@@ -318,42 +318,42 @@ section {
   justify-content: space-between;
 }
 
-.step:last-child {
+.sm:last-child {
   border-bottom: none;
 }
 
-.step h3 {
+.sm h3 {
   color: var(--secondary-color);
   font-size: 46px;
   flex: 1 30%;
 }
 
-.step-info {
+.sm-info {
   flex: 2 70%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.step-img {
+.sm-img {
   flex: 1 12%;
   margin-right: 20px;
 }
 
-.step-img img {
+.sm-img img {
   max-width: 100%;
 }
 
-.step-text {
+.sm-text {
   flex: 12;
 }
 
-.step-text p {
+.sm-text p {
   color: var(--tertiary-color);
   font-size: 18px;
 }
 
-.step-text h4 {
+.sm-text h4 {
   font-size: 26px;
   line-height: 1.5;
   color: var(--secondary-color);
@@ -556,25 +556,25 @@ section {
     padding: 30px 15px;
   }
 
-  .step h3 {
+  .sm h3 {
     flex: 1 100%;
     text-align: center;
   }
 
-  .step-info {
+  .sm-info {
     flex: 2 100%;
     text-align: center;
     justify-content: center;
   }
 
-  .step-img {
+  .sm-img {
     flex: 0 32%;
     margin-right: 0;
     margin-top: 15px;
     margin-bottom: 15px;
   }
 
-  .step-text {
+  .sm-text {
     flex: 100%;
   }
 
