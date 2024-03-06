@@ -649,3 +649,14 @@ section {
 /* .link-to-site { 
   text-align: center;
 } */
+
+.card{
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: black;
+  border-radius: 0.3rem;
+}
+/* .card-img-top{
+  object-fit: cover;
+ 
+} */
