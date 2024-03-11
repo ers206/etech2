@@ -617,12 +617,24 @@ section {
     order: 3;
   }
 }
-
-
+/* 
+.img-thumbnail
+{
+  max-width: 100%;
+      height: 164px;
+      overflow: hidden;
+       margin: auto;
+}
+.img-thumbnail img {
+  max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
 /* Custom styling for smaller images */
 .img-thumbnail {
   max-width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 /* Limit the height of the modal content */
@@ -665,6 +677,35 @@ section {
   text-align: center;
 
 }
+
+#topRow {
+  margin-bottom: 7px;
+}
+
+#myModal5 .modal-dialog {
+  max-width: 80%; /* Adjust the width of the modal container */
+  margin: auto;
+}
+
+#myModal5 img {
+  max-width: 100%; /* Ensure the image inside the modal doesn't exceed the container width */
+  max-height: 70vh; /* Set a maximum height for the image */
+  height: auto; /* Maintain the aspect ratio of the image */
+  display: block;
+  margin: auto;
+}
+
+#myModal5 .modal-body {
+  text-align: center; /* Center-align the text */
+  padding: 20px; /* Add some padding to the modal body for better spacing */
+  overflow: auto; /* Allow scrolling within the modal body if content is too large */
+}
+
+#myModal5 .modal-footer {
+  text-align: center; /* Center-align the text in the footer */
+}
+
+
 /* #carouselDiv{
   padding-right: 0;
   padding-left: 0;
