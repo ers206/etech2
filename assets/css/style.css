@@ -654,7 +654,7 @@ section {
 
 /* Set a fixed width for images within the modal */
 .modal-body img {
-  width: 100%;
+  width: 100%; 
   height: auto;
 }
 
@@ -705,7 +705,23 @@ section {
   text-align: center; /* Center-align the text in the footer */
 }
 
+/* #bgImage {
+  background-image: url("../images/terrace.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  padding-top: 10px;
+  
+}
 
+#bgImage h1, p {
+  color: white;
+} */
+
+#bgImage p {
+  font-size:larger;
+  line-height: 2;
+}
 /* #carouselDiv{
   padding-right: 0;
   padding-left: 0;
