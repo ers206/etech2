@@ -1,2 +1,2 @@
-
+# add images path with / instead of \ to have git ignore files
 .DS_Store
