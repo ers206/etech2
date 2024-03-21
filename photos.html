@@ -220,9 +220,9 @@
       <!-- modal, video, carousel are not as wide as photo section. bc of container?  -->
       <!-- looks like container below is holding rest of page  -->
       <!-- <div class="container ">  -->
-      <section>
+      <section class="modalSection">
         <div class="flex-row">
-          <h2 class="section-title secondary-border">
+          <h2 class="section-title primary-border">
             Modal
           </h2>
           </div>
@@ -437,7 +437,7 @@
       <!-- not centered on page*************************** -->
       <!-- if i comment out div below carousel gets smaller and fits page but isnt centered -->
       <!-- took class="container" out of below div it makes it much larger -->
-      <section>
+      <section class="carouselSection">
         <div id="carouselDiv">
           <div class="flex-row">
             <h2 class="section-title secondary-border">
@@ -534,12 +534,12 @@
 
       </section>
 
-      <section>
+      <section class="videoSection">
         <!--show a background video -->
 
 
 
-        <h2 class="section-title secondary-border">
+        <h2 class="section-title primary-border">
           Video
         </h2>
         <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -577,21 +577,45 @@
           </div>
         <!-- only the 16x9 and 4x3 worked -->
         <!-- change sizes of screen  -->
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="1903" height="776" src="https://www.youtube.com/embed/ye3sMhZ_8eE"
-            title="How to Capture Epic Surf Videos With Your GoPro" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        </div>
+        <!-- <div style="display: flex; justify-content: space-between;">
+          <div style="flex: 1;">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe style="width: 100%; height: 100%;" src="https://www.youtube.com/embed/ye3sMhZ_8eE"
+                title="How to Capture Epic Surf Videos With Your GoPro" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+          <div style="flex: 1;">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe style="width: 100%; height: 100%;" src="https://www.youtube.com/embed/t6_Sd4IrSow"
+                title="How to Capture Underwater Dive + Snorkel Shots With Your GoPro" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div> -->
 
-
-        <!-- 4:3 aspect ratio -->
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="1903" height="776" src="https://www.youtube.com/embed/t6_Sd4IrSow"
-            title="How to Capture Underwater Dive + Snorkel Shots With Your GoPro" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
+        <div style="display: flex; justify-content: space-between;">
+          <div style="flex: 1; margin-right: 10px;">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe style="width: 100%; height: 100%;" src="https://www.youtube.com/embed/ye3sMhZ_8eE"
+                title="How to Capture Epic Surf Videos With Your GoPro" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+          <div style="flex: 1; margin-left: 10px;">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe style="width: 100%; height: 100%;" src="https://www.youtube.com/embed/t6_Sd4IrSow"
+                title="How to Capture Underwater Dive + Snorkel Shots With Your GoPro" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
+          </div>
         </div>
+        
+        
 
       </section>
 

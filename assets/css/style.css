@@ -79,9 +79,10 @@ header nav ul li a:hover {
   border-radius: 15px;
   text-shadow: none;
   background: linear-gradient(90deg, #000fff, #4b4a4a);
-  background-size: 150% 100%;
-  background-position: 100% 0;
-  transition: background-position 1s ease-in-out;
+  /* changed both 1st numbers of next to lines to 250% from 100%. changed seconds from 1 to 0.5*/
+  background-size: 250% 100%;
+  background-position: 250% 0;
+  transition: background-position 0.5s ease-in-out;
 }
 
 /* HEADER / NAVBAR STYLES END */
@@ -299,7 +300,7 @@ section {
 }
 
 
-.smS, .photo {
+.smS, .photo, .gallery1, .carouselSection {
   background: var(--primary-color);
 }
 
@@ -810,6 +811,69 @@ section {
       color: #ffffff; /* Text color on top of the video */
       padding-top: 20%;
     }
+    /* icons for web tech section */
+
+    /* .section-title {
+      text-align: center;
+      font-size: 24px;
+    } */
+
+    .techContainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .techContainer > div {
+      margin: 10px;
+    }
+
+    .icon {
+      font-size: 48px; /* Adjust the size as needed */
+      /* color: ;  */
+    }
+
+/* buttons ion web design page */
+.btn-custom-font1 {
+  font-family: 'Arial', sans-serif; /* Example font family for Button 1 */
+}
+
+.btn-custom-font2 {
+  font-family: 'Times New Roman', serif; /* Example font family for Button 2 */
+}
+
+.btn-custom-font3 {
+  font-family: 'Courier New', monospace; /* Example font family for Button 3 */
+}
+
+.btn-custom-font4 {
+  font-family: 'Verdana', sans-serif; /* Example font family for Button 4 */
+}
+
+.btn-custom-font5 {
+  font-family: 'Georgia', serif; /* Example font family for Button 5 */
+}
+
+.btn-custom-font6 {
+  font-family: 'Comic Sans MS', cursive; /* Example font family for Button 6 */
+}
+
+/* Align buttons in a row */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center align the buttons horizontally */
+  gap: 10px; /* Add gap between buttons */
+}
+
+/* Adjust button styles as needed */
+.btn {
+  /* Add common styles for buttons */
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+
 /* #carouselDiv{
   padding-right: 0;
   padding-left: 0;
