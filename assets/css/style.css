@@ -322,7 +322,7 @@ section {
 }
 
 
-.smS, .photo, .gallery1, .carouselSection, .webColapse, .webForm, .webTable, .webTech {
+.smS, .photo, .gallery1, .carouselSection {
   background: var(--primary-color); 
 }
 
@@ -847,20 +847,36 @@ section {
       font-size: 24px;
     } */
 
+    .webTech {
+      text-align: center;
+    }
+    
     .techContainer {
+      display: inline-block;
+    }
+    
+    .tech-row {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
+      margin-bottom: 20px;
     }
-
-    .techContainer > div {
-      margin: 10px;
+    
+    .tech-item {
+      text-align: center;
+      margin: 0 10px;
     }
-
+    
     .icon {
-      font-size: 48px; /* Adjust the size as needed */
-      /* color: ;  */
+      font-size: 150px; /* Adjust the size as needed */
+      display: block;
+      margin-bottom: 10px;
+      color: black;
     }
+    
+    .tech-text {
+      font-size: 14px;
+    }
+    
 
 /* buttons ion web design page */
 .btn-custom-font1 {
@@ -942,10 +958,10 @@ section {
    );
 }
 
-.webWeb {
+/* .webWeb {
   background-image: url("../images/pexels-pixabay-270404.jpg");
  size: auto;
-}
+} */
 /* #imageAcc {
   background: url("../images/logoNoWriting.jpg");
   color: white;
