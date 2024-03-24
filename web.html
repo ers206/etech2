@@ -49,17 +49,17 @@
         <a href="index.html.#advertising">Advertising</a>
       </li>
 
-      <li>
+      <!-- <li>
         <a href="index.html.#contact us">Contact Us</a>
-      </li>
+      </li> -->
     </ul>
   </nav>
 </header>
 
 <body>
-  <section>
+  <section class="webWeb">
     <div>
-      <!-- center text give examples of everything on bootstrap site -->
+      <!-- create link to photo page -->
       <h2 class="section-title primary-border">
         Web Design
       </h2>
@@ -83,21 +83,29 @@
     </div>
   </section>
   <!-- cards accordians buttons forms header footer navbar tables font figures? (in bootstrap not sure whati tis for yet) -->
-  <section class="colapsableSection">
+  <section class="webColapse">
     <!-- maybe put acordians in here too -->
     <h2 class="section-title secondary-border">
       Colapsable
     </h2>
-    <p>
+    <p class="text-center">
+      Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna. Imperdiet sed euismod nisi porta lorem
+        mollis aliquam ut porttitor. Sit amet nisl purus in mollis nunc sed id semper. Amet nisl purus in mollis. At
+        urna condimentum mattis pellentesque id nibh. In fermentum posuere urna nec tincidunt praesent. Ipsum dolor
+        sit amet consectetur adipiscing elit. Dui id ornare arcu odio ut sem. Enim sed faucibus turpis in eu mi.
+        Sagittis eu volutpat odio facilisis mauris sit amet. Amet nisl purus in mollis nunc. Mauris sit amet massa
+        vitae tortor condimentum lacinia quis.
+    </p>
+       <div class="text-center">
       <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"
         aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
       <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
         aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
       <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"
         aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
-    </p>
-    <div class="row">
-      <div class="col">
+       </div>
+        <div class="row ">
+      <div class="col ">
         <div class="collapse multi-collapse" id="multiCollapseExample1">
           <div class="card card-body">
             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
@@ -116,87 +124,107 @@
     </div>
 
     <div class="accordion" id="accordionExample">
+      <!-- First three accordion items -->
       <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-            aria-expanded="true" aria-controls="collapseOne">
+        <h2 class="accordion-header text-center">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             Accordion Item #1
           </button>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-            plugin adds the appropriate classes that we use to style each element. These classes control the
-            overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
-            this with custom CSS or overriding our default variables. It's also worth noting that just about any
-            HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
           </div>
         </div>
       </div>
       <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <h2 class="accordion-header text-center">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             Accordion Item #2
           </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-            collapse plugin adds the appropriate classes that we use to style each element. These classes
-            control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-            modify any of this with custom CSS or overriding our default variables. It's also worth noting that
-            just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-            overflow.
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Accordion Item #3
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-            collapse plugin adds the appropriate classes that we use to style each element. These classes
-            control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-            modify any of this with custom CSS or overriding our default variables. It's also worth noting that
-            just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-            overflow.
+
+    </div>
+      <!-- Horizontal alignment for the last three accordion items with images -->
+      <div class="row">
+        <div class="col">
+          <div class="accordion-item col-md-3">
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body text-center">
+                <h1>TITLE OF ITEM</h1>
+              </div>
+            </div>
+            <button id="imageAcc1" class="accordion-button collapsed text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <img src="./assets/images/logoNoWriting.jpg" alt="Image 1" class="img-fluid">
+            </button>
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="accordion-item col-md-3">
+            <button id="imageAcc2" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              <img src="./assets/images/logoNoWriting.jpg" alt="Image 2" class="img-fluid">
+            </button>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut
+        labore et dolore
+        magna aliqua. Vel pharetra vel turpis nunc eget lorem dolor sed. Urna et pharetra pharetra massa massa. Est
+        sit amet facilisis magna etiam. Arcu cursus vitae congue mauris rhoncus. Nunc mattis enim ut tellus
+        elementum sagittis. Et ultrices neque ornare aenean euismod elementum nisi quis. Ornare arcu odio 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="accordion-item col-md-3">
+            <button id="imageAcc3" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              <img src="./assets/images/logoNoWriting.jpg" alt="Image 3" class="img-fluid">
+            </button>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Content for Image 3
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="accordion-item col-md-3">
+            <button id="imageAcc4" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              <img src="./assets/images/logoNoWriting.jpg" alt="Image 4" class="img-fluid">
+            </button>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Content for Image 4
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- accordian images not working yet used from 1303 but didnt work bc its MUI use example above and ad bg image-->
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          image
-        </button>
-      </h2>
-      <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-          collapse plugin adds the appropriate classes that we use to style each element. These classes
-          control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-          modify any of this with custom CSS or overriding our default variables. It's also worth noting that
-          just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-          overflow.
-        </div>
-      </div>
-    </div>
+    
+    
 
   </section>
 
-  <section>
-    <h2 class="section-title secondary-border">
+  <section class="webCard">
+    <h2 class="section-title primary-border">
       Cards
     </h2>
-
+    <p class="text-center">
+      Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna. Imperdiet sed euismod nisi porta lorem
+        mollis aliquam ut porttitor. Sit amet nisl purus in mollis nunc sed id semper. Amet nisl purus in mollis. At
+        urna condimentum mattis pellentesque id nibh. In fermentum posuere urna nec tincidunt praesent. Ipsum dolor
+        sit amet consectetur adipiscing elit. Dui id ornare arcu odio ut sem. Enim sed faucibus turpis in eu mi.
+        Sagittis eu volutpat odio facilisis mauris sit amet. Amet nisl purus in mollis nunc. Mauris sit amet massa
+        vitae tortor condimentum lacinia quis.
+    </p>
     <div class="row">
       <div class="col-md-3">
         <div class="card border-secondary">
@@ -247,6 +275,10 @@
         </div>
       </div>
     </div>
+
+
+  
+
   </section>
 
 
@@ -335,11 +367,18 @@
   <!-- header footer navbar tables font figures -->>
 
 
-  <section>
+  <section class="webForm">
     <h2 class="section-title secondary-border">
       Forms
     </h2>
-
+    <p class="text-center">
+      Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna. Imperdiet sed euismod nisi porta lorem
+        mollis aliquam ut porttitor. Sit amet nisl purus in mollis nunc sed id semper. Amet nisl purus in mollis. At
+        urna condimentum mattis pellentesque id nibh. In fermentum posuere urna nec tincidunt praesent. Ipsum dolor
+        sit amet consectetur adipiscing elit. Dui id ornare arcu odio ut sem. Enim sed faucibus turpis in eu mi.
+        Sagittis eu volutpat odio facilisis mauris sit amet. Amet nisl purus in mollis nunc. Mauris sit amet massa
+        vitae tortor condimentum lacinia quis.
+    </p>
 
     <div class="container">
       <div class="row">
@@ -480,11 +519,18 @@
 
   </section>
 
-  <section>
-    <h2 class="section-title secondary-border">
+  <section class="webNavbar">
+    <h2 class="section-title primary-border">
       Navbar
     </h2>
-
+    <p class="text-center">
+      Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna. Imperdiet sed euismod nisi porta lorem
+        mollis aliquam ut porttitor. Sit amet nisl purus in mollis nunc sed id semper. Amet nisl purus in mollis. At
+        urna condimentum mattis pellentesque id nibh. In fermentum posuere urna nec tincidunt praesent. Ipsum dolor
+        sit amet consectetur adipiscing elit. Dui id ornare arcu odio ut sem. Enim sed faucibus turpis in eu mi.
+        Sagittis eu volutpat odio facilisis mauris sit amet. Amet nisl purus in mollis nunc. Mauris sit amet massa
+        vitae tortor condimentum lacinia quis.
+    </p>
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Logo</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -600,10 +646,18 @@
     </nav>
   </section>
 
-  <section>
+  <section class="webTable">
     <h2 class="section-title secondary-border">
       Tables
     </h2>
+    <p class="text-center">
+      Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna. Imperdiet sed euismod nisi porta lorem
+        mollis aliquam ut porttitor. Sit amet nisl purus in mollis nunc sed id semper. Amet nisl purus in mollis. At
+        urna condimentum mattis pellentesque id nibh. In fermentum posuere urna nec tincidunt praesent. Ipsum dolor
+        sit amet consectetur adipiscing elit. Dui id ornare arcu odio ut sem. Enim sed faucibus turpis in eu mi.
+        Sagittis eu volutpat odio facilisis mauris sit amet. Amet nisl purus in mollis nunc. Mauris sit amet massa
+        vitae tortor condimentum lacinia quis.
+    </p>
     <table class="table">
       <thead>
         <tr>
@@ -638,11 +692,19 @@
 
 
   
-<section>
+<section class="webButton">
   <!-- buttons also showing different font -->
-  <h2 class="section-title secondary-border">
+  <h2 class="section-title primary-border">
     Buttons
   </h2>
+  <p class="text-center">
+    Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna. Imperdiet sed euismod nisi porta lorem
+      mollis aliquam ut porttitor. Sit amet nisl purus in mollis nunc sed id semper. Amet nisl purus in mollis. At
+      urna condimentum mattis pellentesque id nibh. In fermentum posuere urna nec tincidunt praesent. Ipsum dolor
+      sit amet consectetur adipiscing elit. Dui id ornare arcu odio ut sem. Enim sed faucibus turpis in eu mi.
+      Sagittis eu volutpat odio facilisis mauris sit amet. Amet nisl purus in mollis nunc. Mauris sit amet massa
+      vitae tortor condimentum lacinia quis.
+  </p>
   <div class="button-container">
     <button type="button" class="btn btn-primary btn-custom-font1">Primary</button>
     <button type="button" class="btn btn-lg btn-danger btn-custom-font2" data-toggle="popover" title="Popover title"
@@ -687,9 +749,9 @@
   <!-- <section>
     <h2>Font</h2>
   </section> -->
-
+<!-- 
   <section>
-    <!-- show location of business -->
+    
     <h2 class="section-title secondary-border">
       Location
     </h2>
@@ -697,15 +759,23 @@
       src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12182.30520634488!2d-74.0652613!3d40.2407219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1561060983193!5m2!1sen!2sus"
       frameborder="0" style="border:0" allowfullscreen>
     </iframe>
-  </section>
+  </section> -->
   <!-- https://devicon.dev/  -->
  
-  <div class="container">
-    <section class="techSection">
+  <!-- <div class="container"> -->
+    <section class="webTech">
       <!-- https://devicon.dev/ -->
       <h2 class="section-title secondary-border">
         Technologies
       </h2>
+      <p class="text-center">
+        Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna. Imperdiet sed euismod nisi porta lorem
+          mollis aliquam ut porttitor. Sit amet nisl purus in mollis nunc sed id semper. Amet nisl purus in mollis. At
+          urna condimentum mattis pellentesque id nibh. In fermentum posuere urna nec tincidunt praesent. Ipsum dolor
+          sit amet consectetur adipiscing elit. Dui id ornare arcu odio ut sem. Enim sed faucibus turpis in eu mi.
+          Sagittis eu volutpat odio facilisis mauris sit amet. Amet nisl purus in mollis nunc. Mauris sit amet massa
+          vitae tortor condimentum lacinia quis.
+      </p>
       <div class="row techContainer">
         <!-- First row -->
         <div class="col-6 col-md-2">
@@ -742,7 +812,7 @@
         </div>
       </div>
     </section>
-  </div>
+  <!-- </div>  -->
   
   <!-- <script src="./js/web.js"></script> -->
 
@@ -770,9 +840,17 @@
 
 <div>
 
-  <h2 class="section-title secondary-border">
+  <!-- <h2 class="section-title secondary-border">
     Footer
   </h2>
+  <p class="text-center">
+    Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna. Imperdiet sed euismod nisi porta lorem
+      mollis aliquam ut porttitor. Sit amet nisl purus in mollis nunc sed id semper. Amet nisl purus in mollis. At
+      urna condimentum mattis pellentesque id nibh. In fermentum posuere urna nec tincidunt praesent. Ipsum dolor
+      sit amet consectetur adipiscing elit. Dui id ornare arcu odio ut sem. Enim sed faucibus turpis in eu mi.
+      Sagittis eu volutpat odio facilisis mauris sit amet. Amet nisl purus in mollis nunc. Mauris sit amet massa
+      vitae tortor condimentum lacinia quis.
+  </p> -->
   <section id="contact us" class="contact">
     <!-- <div class="flex-row">
       <h2 class="section-title secondary-border">

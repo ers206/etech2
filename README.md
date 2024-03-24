@@ -11,4 +11,17 @@
         -another footer......used contact us section may need another footer and add to footer******************
         -buttons need to be seperated use, put side by side with font 
         -image on accordian element
-        -make header better -->
+        -make header better.....added better hover***** -->
+
+
+<!-- photos page
+        -add borders on gallery pics
+        -add videos before filming for youtube -->
+
+ <!-- web page
+        -add another row of buttons use hover effects
+        -take out location section just mention it 
+        -center items -->
+
+<!-- privacy police page 
+        -use free one-->
