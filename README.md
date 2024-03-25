@@ -11,17 +11,20 @@
         -another footer......used contact us section may need another footer and add to footer******************
         -buttons need to be seperated use, put side by side with font 
         -image on accordian element
-        -make header better.....added better hover***** -->
-
-
+        -make header better.....added better hover*****
+        -type in color to change background color? -->
+        
+<!-- *************3/25  -->
 <!-- photos page
         -add borders on gallery pics
         -add videos before filming for youtube -->
 
  <!-- web page
+        -image accordian items overlap when shrinking screen
         -add another row of buttons use hover effects
-        -take out location section just mention it 
-        -center items -->
+        -make forms section larger(probably an issue with divs) maybe use space-between space-around
+        -check cards
+        -fix navbars takeout before video-->
 
 <!-- privacy police page 
         -use free one-->

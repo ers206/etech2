@@ -849,15 +849,17 @@ section {
 
     .webTech {
       text-align: center;
+      /*  */
+      /* justify-content: space-around; */
     }
     
-    .techContainer {
-      display: inline-block;
-    }
+    /* .techContainer {
+
+    } */
     
     .tech-row {
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       margin-bottom: 20px;
     }
     
@@ -877,6 +879,18 @@ section {
       font-size: 14px;
     }
     
+    .tech-row{
+      flex-wrap: wrap;
+    }
+
+    /* #accImage {
+      flex-wrap: wrap;
+    } */
+    /* @media screen and (max-width: 768px) {
+      .tech-row {
+        flex-wrap: wrap;
+      }
+    } */
 
 /* buttons ion web design page */
 .btn-custom-font1 {
@@ -957,7 +971,9 @@ section {
      0% 100%
    );
 }
-
+ .webForm {
+  justify-content: space-between;
+ }
 /* .webWeb {
   background-image: url("../images/pexels-pixabay-270404.jpg");
  size: auto;
