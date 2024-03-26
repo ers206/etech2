@@ -29,4 +29,5 @@
 <!-- privacy police page 
         -use free one-->
 
-        Navbars, short for navigation bars, are essential elements of website design that provide users with a means to navigate between different sections or pages of a website. Typically located at the top of a webpage, navbars contain links or buttons that direct users to key areas of the site, such as home, about, services, and contact. Navbars often incorporate dropdown menus or collapsible elements to accommodate navigation to subpages or additional content, ensuring seamless access to site-wide navigation options. 
+        
+<!-- https://freefrontend.com/css-hover-effects/page/3/ -->

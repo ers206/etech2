@@ -1,17 +1,19 @@
 <!DOCTYPE html>
+<!-- ********************************************sections are seperated they all dont work at once bc of the conflict of css. the css has a divider. with ***** -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+    <link rel="stylesheet" href="./assets/css/photos-styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Document</title>
 </head>
 <body>
     
-    <nav class="navbar navbar-light bg-light d-flex">
+    <!-- <nav class="navbar navbar-light bg-light d-flex">
         <div class="container d-flex" style="background-image: url(./assets/images/logoNoWriting.jpg) ">
             <h1 class="navbar-brand" href="#">
                 <img src="./assets/images/LogoNoBg.png"
@@ -20,110 +22,241 @@
                 loading="lazy" />E TECHNOLOGIES
             </h1>
             <a class="navbar d-flex"  href="#" >Web dev
-                <!-- <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
-                 height="50"
-                 alt="MDB Logo"
-                 loading="lazy" /> -->
-                </a>
+
                 <a class="navbar d-flex " href="#">home
                     
-                    <!-- <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
-                        height="30"
-                        alt="MDB Logo"
-                        loading="lazy" /> -->
+
                     </a>
                     
                 </div>
             </nav>
-            <section>
-                <div class="container">
-                  <h1>Modal</h1>
-                  <div class="row">
-                    <!-- Image 1 -->
-                    <div class="col-md-4">
-                      <a href="#" data-toggle="modal" data-target="#myModal1">
-                        <img src="./assets/images/IMG_0560.JPG" class="img-thumbnail" alt="Image 1">
-                      </a>
-                    </div>
-            
-                    <!-- Image 2 -->
-                    <div class="col-md-4">
-                      <a href="#" data-toggle="modal" data-target="#myModal2">
-                        <img src="./assets/images/IMG_0560.JPG" class="img-thumbnail" alt="Image 2">
-                      </a>
-                    </div>
-            
-                    <!-- Image 3 -->
-                    <div class="col-md-4">
-                      <a href="#" data-toggle="modal" data-target="#myModal3">
-                        <img src="./assets/images/IMG_0560.JPG" class="img-thumbnail" alt="Image 3">
-                      </a>
-                    </div>
-                  </div>
-            
-                  <!-- Modal 1 -->
-                  <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-body">
-                          <img src="./assets/images/IMG_0560.JPG" class="img-fluid" alt="Image 1">
-                          <p>Your text for Image 1 goes here.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            
-                  <!-- Modal 2 -->
-                  <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-body">
-                          <img src="./assets/images/IMG_0560.JPG" class="img-fluid" alt="Image 2">
-                          <p>Your text for Image 2 goes here.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            
-                  <!-- Modal 3 -->
-                  <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-body">
-                          <img src="./assets/images/IMG_0560.JPG" class="img-fluid" alt="Image 3">
-                          <p>Your text for Image 3 goes here.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
+  -->
     
               <h3 class="hover-2">Hover Me</h3>
-  
+  <!-- **************************************** -->
+              <div class="box">
+                <div class="activator white"></div>
+                <div class="activator black"></div>
+                <div class="drop"></div>
+                <svg class="cats" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" height="300" width="300">
+                  <path d="M198.63 43.54c-8.535-4.018 3.727 22.035-12.55 45.9-20.702 30.36-48.977 21.085-41.787 33.538 6.11 10.582 14.963 5.18 22.04 1.094 14.174-8.184 27.137-10.15 28.113 3.987 1.042 15.096-20.733 19.503-38.7 21.456-14.98 1.746-26.072.598-39.257 7.506-7.503 3.93-12.945 8.577-11.272 16.88 1.543 7.663 6.38 9.685 14.245 8.033 14.377-3.02 29.986-17.01 35.77-5.653 5.19 10.192-17.612 11.026-28.038 18.733-13.19 9.75-18.697 22.952-23.197 36.583-1.806 5.473-6.094 20.647-2.37 25.047 11.313 2.326 21.947-8.24 31.515-4.824 9.426 3.366 18.753 8.822 24.982 16.656 6.99 8.79.88 29.34 11.896 31.524 91.172-57.992 104.09-103.495 104.09-139.778 0-46.43-24.75-92.793-75.48-116.68z" fill="#f2f2f2" />
+                  <path d="M101.38 256.46c8.535 4.018-3.726-22.035 12.55-45.9 20.703-30.36 48.978-21.085 41.788-33.538-6.11-10.582-14.963-5.18-22.04-1.094-14.174 8.184-27.138 10.148-28.113-3.987-1.042-15.096 20.732-19.503 38.7-21.456 14.978-1.746 26.072-.598 39.257-7.506 7.502-3.93 12.943-8.578 11.27-16.88-1.543-7.663-6.38-9.685-14.244-8.033-14.378 3.02-29.987 17.01-35.77 5.653-5.19-10.192 17.612-11.026 28.037-18.733 13.19-9.75 18.697-22.952 23.197-36.583 1.807-5.473 6.094-20.647 2.372-25.047-11.314-2.326-21.948 8.24-31.517 4.824-9.425-3.366-18.752-8.822-24.98-16.656-6.992-8.79-.88-29.34-11.897-31.524C38.82 57.99 25.9 103.495 25.9 139.778c0 46.43 24.75 92.793 75.48 116.68z" fill="#1a1a1a" />
+                  <path d="M110.677 57.635s-1.826 3.912 2.206 7.82c4.032 3.91 7.86.79 7.86.79M143.635 85.076s-1.826 3.912 2.206 7.82c4.032 3.91 7.86.79 7.86.79" fill="none" stroke="#ececec" stroke-width="6.774" stroke-linecap="round" />
+                  <path d="M104.733 80.926s3.077 8.615 6.49 10.237c3.416 1.623 10.488-1.248 10.488-1.248l3.996-4.744 5.243-.25-6.742-3.494 1.498 3.745-4.245 5.494s.47 8.58 2.997 10.736c2.53 2.157 8.74 1 8.74 1" fill="none" stroke="#ececec" stroke-width="6.774" stroke-linecap="round" stroke-linejoin="round" />
+                  <g stroke="#1a1a1a" fill="none" stroke-width="6" stroke-linecap="round">
+                    <path d="M189.063 252.215s1.826-3.912-2.206-7.82c-4.032-3.91-7.86-.79-7.86-.79M156.105 224.773s1.826-3.91-2.206-7.82c-4.033-3.91-7.862-.79-7.862-.79" stroke-width="6.77406" />
+                    <path d="M195.007 228.923s-3.077-8.614-6.492-10.236c-3.414-1.623-10.486 1.248-10.486 1.248l-3.996 4.744-5.243.25 6.742 3.494-1.498-3.745 4.245-5.494s-.47-8.58-2.997-10.736c-2.53-2.157-8.74-1-8.74-1" stroke-linejoin="round" stroke-width="6.77406" />
+                  </g>
+                </svg>
+              </div>
+              <div class="text">Yin & yang cats</div>
+<!-- ************************************************************************* -->
 
-
-
-                  <!-- accordian images not working yet used from 1303 but didnt work bc its MUI use example above and ad bg image-->
-    <!-- <div class="accordion-item">
-     
-        <button id="imageAcc" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          image
-        </button>
-      <
-      <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-          collapse plugin adds the appropriate classes that we use to style each element. These classes
-          control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-          modify any of this with custom CSS or overriding our default variables. It's also worth noting that
-          just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-          overflow.
+<div class="ag-offer-block">
+  <div class="ag-format-container">
+    <ul class="ag-offer_list">
+      <li class="ag-offer_item">
+        <div class="ag-offer_visible-item">
+          <div class="ag-offer_img-box">
+            <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/icon-64-1.svg" class="ag-offer_img" alt="" />
+          </div>
+          <div class="ag-offer_title">
+            Lorem ipsum
+          </div>
         </div>
-      </div> -->
+        <div class="ag-offer_hidden-item">
+          <p class="ag-offer_text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          </p>
+        </div>
+      </li>
+      <li class="ag-offer_item">
+        <div class="ag-offer_visible-item">
+          <div class="ag-offer_img-box">
+            <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/icon-64-2.svg" class="ag-offer_img" alt="" />
+          </div>
+          <div class="ag-offer_title">
+            Donec quam
+          </div>
+        </div>
+        <div class="ag-offer_hidden-item">
+          <p class="ag-offer_text">
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+          </p>
+        </div>
+      </li>
+      <li class="ag-offer_item">
+        <div class="ag-offer_visible-item">
+          <div class="ag-offer_img-box">
+            <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/icon-64-3.svg" class="ag-offer_img" alt="" />
+          </div>
+          <div class="ag-offer_title">
+            Donec pede
+          </div>
+        </div>
+        <div class="ag-offer_hidden-item">
+          <p class="ag-offer_text">
+            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+          </p>
+        </div>
+      </li>
+      <li class="ag-offer_item">
+        <div class="ag-offer_visible-item">
+          <div class="ag-offer_img-box">
+            <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/icon-64-4.svg" class="ag-offer_img" alt="" />
+          </div>
+          <div class="ag-offer_title">
+            Cras dapibus
+          </div>
+        </div>
+        <div class="ag-offer_hidden-item">
+          <p class="ag-offer_text">
+            Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor.
+          </p>
+        </div>
+      </li>
+      <li class="ag-offer_item">
+        <div class="ag-offer_visible-item">
+          <div class="ag-offer_img-box">
+            <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/icon-64-5.svg" class="ag-offer_img" alt="" />
+          </div>
+          <div class="ag-offer_title">
+            Aliquam lorem
+          </div>
+        </div>
+        <div class="ag-offer_hidden-item">
+          <p class="ag-offer_text">
+            Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius.
+          </p>
+        </div>
+      </li>
+      <li class="ag-offer_item">
+        <div class="ag-offer_visible-item">
+          <div class="ag-offer_img-box">
+            <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/icon-64-6.svg" class="ag-offer_img" alt="" />
+          </div>
+          <div class="ag-offer_title">Phasellus</div>
+        </div>
+        <div class="ag-offer_hidden-item">
+          <a href="#" class="ag-offer_btn">
+            Dapibus viverra
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- ************************************************ comment out for the cats to work/ uncomment and this will work -->
+<!-- <h1>CSS Box Hover Effect</h1>
+  <h3>Best viewed on a tablet or desktop screens. Total responsiveness is still to be desired.</h3>
+  <div class="quotes">
+    <div class="card">
+      <div class="box box1">
+        <p>The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself. </p>
+        <h2>Mark Caine</h2>
+      </div>
+      <div class="bg"></div>
+    </div>
+    <div class="card">
+      <div class="box box2">
+        <p>Your smile will give you a positive countenance that will make people feel comfortable around you. </p>
+        <h2>Les Brown</h2>
+      </div>
+      <div class="bg"></div>
+    </div>
+    <div class="card">
+      <div class="box box3">
+        <p>Before anything else, preparation is the key to success. </p>
+        <h2>Alexander Graham Bell</h2>
+      </div>
+      <div class="bg"></div>
+    </div>
+  </div> -->
+ <!-- ************************************************************************* -->
+
+ <div class="container shoe">
+  <div class="productImage shoeImg"></div>
+  <div class="size shoeSize">
+    <h4>SIZE</h4>
+    <ul>
+      <li>9</li>
+      <li>8</li>
+      <li>7</li>
+    </ul>
+  </div>
+  <div class="price shoePrice">
+    <h4>PRICE</h4>
+    <span>$150</span>
+  </div>
+  <div class="color shoeColor">
+    <h4>COLORS</h4>
+    <ul>
+      <li><span class="blue"></span></li>
+      <li><span class="yellow"></span></li>
+      <li><span class="red"></span></li>
+    </ul>
+  </div>
+  <div class="productName shoeName">
+    Nike Air Max
+  </div>
+</div>
+<div class="container shirt">
+  <div class="productImage shirtImg"></div>
+  <div class="size shirtSize">
+    <h4>SIZE</h4>
+    <ul>
+      <li>S</li>
+      <li>M</li>
+      <li>L</li>
+    </ul>
+  </div>
+  <div class="price shirtPrice">
+    <h4>PRICE</h4>
+    <span>$50</span>
+  </div>
+  <div class="color shirtColor">
+    <h4>COLORS</h4>
+    <ul>
+      <li><span class="blue"></span></li>
+      <li><span class="yellow"></span></li>
+      <li><span class="red"></span></li>
+    </ul>
+  </div>
+  <div class="productName shirtName">
+    Crew-neck t-shirt
+  </div>
+</div>
+<div class="credits">
+      Based on a<a target="_blank" href="https://dribbble.com/shots/4894403-Product-info-hover"> Dribbble Shot</a>
+  </div>
+<!-- ********************************************************************************************** -->
+
+<div class="coolhover1">hover over me</div>
+
+<!-- ************************************************************************************* -->
+
+<div id="circle-container">
+	<div id="cc">
+	<div class="circle" id="five"></div>
+	<div class="circle" id="four"></div>
+	<div class="circle" id="three"></div>
+	<div class="circle" id="two"></div>
+	<div class="circle" id="one"></div>
+	</div>
+</div>
+
+<div id="mb">
+	<p>Made By 
+	<a href="https://codepen.io/budachb" target="_blank">Bradley Budach</a>
+	</p>
+</div>
+<!-- ************************************************************************** -->
+<div class="box1">
+  <h1>Hover Over Me!</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+  <br><button>Pen Created By Avi Thour</button>
+</div>
+
+
 </body>
         </html>
