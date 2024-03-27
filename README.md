@@ -25,9 +25,9 @@
         -make forms section larger(probably an issue with divs) maybe use space-between space-around
         -check cards
         -fix navbars takeout before video-->
-
+<!-- put facebook and istagram link in footer with same links as in header -->
 <!-- privacy police page 
         -use free one-->
 
-        
+
 <!-- https://freefrontend.com/css-hover-effects/page/3/ -->
