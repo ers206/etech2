@@ -236,27 +236,37 @@
 
     </div>
     <!-- Horizontal alignment for the last three accordion items with images -->
+    <!-- only using 2 images and they overlap..... and change images -->
     <div id="accImage" class="row">
       <div class="col">
-        <div class="accordion-item col-md-3">
+        <div id="accImage1" class="accordion-item col-md-6">
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
             data-bs-parent="#accordionExample">
             <div class="accordion-body text-center">
-              <h1>TITLE OF ITEM</h1>
+              <h1>Ground Zero Memorial</h1>
             </div>
           </div>
           <button id="imageAcc1" class="accordion-button collapsed text-start" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            <img src="./assets/images/logoNoWriting.jpg" alt="Image 1" class="img-fluid">
+            <img src="./assets/images/ground0.jpg" alt="Image 1" class="img-fluid">
+
           </button>
 
         </div>
       </div>
+<!-- below adds overlay that says click but it moves when writing exposed and cant click where it says click -->
+      <!-- <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(255, 255, 255, 0.8); padding: 10px;">
+        <span style="font-weight: bold;">click</span>
+      </div> -->
+
       <div class="col">
-        <div class="accordion-item col-md-3">
+        <div id="accImage2" class="accordion-item col-md-6">
+
           <button id="imageAcc2" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-            <img src="./assets/images/logoNoWriting.jpg" alt="Image 2" class="img-fluid">
+
+            <img src="./assets/images/nycCorner.jpg" alt="Image 2" class="img-fluid">
+
           </button>
           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
             data-bs-parent="#accordionExample">
@@ -272,34 +282,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="accordion-item col-md-3">
-          <button id="imageAcc3" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-            <img src="./assets/images/logoNoWriting.jpg" alt="Image 3" class="img-fluid">
-          </button>
-          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              Content for Image 3
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="accordion-item col-md-3">
-          <button id="imageAcc4" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-            <img src="./assets/images/logoNoWriting.jpg" alt="Image 4" class="img-fluid">
-          </button>
-          <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              Content for Image 4
-            </div>
-          </div>
-        </div>
-      </div>
+
     </div>
 
 
@@ -327,7 +310,7 @@
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a  class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
@@ -339,8 +322,8 @@
             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <a ] class="card-link">Card link</a>
+            <a ]class="card-link">Another link</a>
           </div>
         </div>
       </div>
@@ -363,7 +346,7 @@
           <div class="card-body text-center">
             <h5 class="card-title">Special title treatment</h5>
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
@@ -391,7 +374,7 @@
       accessibility, and data validation to ensure a smooth and error-free user experience.
     </p>
     <div class="row">
-      <!-- <div class="container"> -->
+      <!-- <div class="container"> submit buttons are link to top of page thats unneeded not sure how to stop that took off type on button and class. didnt work-->
       <div class="row">
         <div class="col-md-4">
           <form>
@@ -426,7 +409,7 @@
       <!-- </div> -->
 
       <!-- <body> -->
-      <!-- <div class="container"> -->
+      
       <div class="row">
         <div class="col-md-6">
           <form>
@@ -563,7 +546,7 @@
         </ul>
       </div>
     </nav> -->
-    
+
     <nav id="navbar2" class="navbar navbar-expand-lg navbar-light bg-light">
       <!-- <a class="navbar-brand" href="#">Brand 2</a> -->
       <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav2" aria-expanded="false" aria-label="Toggle navigation">
@@ -583,7 +566,7 @@
         </ul>
       </div>
     </nav>
-    
+
     <nav id="navbar3" class="navbar navbar-expand-lg navbar-dark bg-primary">
       <!-- <a class="navbar-brand" href="#">Brand 3</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav3" aria-controls="navbarNav3" aria-expanded="false" aria-label="Toggle navigation">
@@ -598,7 +581,8 @@
             <a class="nav-link" href="#">Features</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Dropdown link
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -611,47 +595,47 @@
       </div>
     </nav>
 
-    
-<nav id="navbar5" class="navbar navbar-expand-lg navbar-light bg-light">
-  <!-- <a class="navbar-brand" href="#">Brand</a>
+
+    <nav id="navbar5" class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- <a class="navbar-brand" href="#">Brand</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav5" aria-controls="navbarNav5" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button> -->
-  <div class="collapse navbar-collapse" id="navbarNav5">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Another Link</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+      <div class="collapse navbar-collapse" id="navbarNav5">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Another Link</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
 
-<nav id="navbar6" class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Brand 6</a>
-  <div class="collapse navbar-collapse" id="navbarNav6">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <nav id="navbar6" class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Brand 6</a>
+      <div class="collapse navbar-collapse" id="navbarNav6">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- **************************************************************************************************** -->
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -781,7 +765,7 @@
       driving desired outcomes, such as conversions or engagement. The second row of buttons showcases examples of hover
       effects. Hover your mouse over them to observe their interactive behavior.
     </p>
-
+    <!-- hover effects section?******************************************** -->
     <div id="buttonsContainer">
       <div class="button-container">
         <button type="button" class="btn btn-primary btn-custom-font1">Primary</button>
@@ -871,6 +855,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <!-- verify this is needed  -->
   <script>
     $(document).ready(function () {
       $('[data-toggle="popover"]').popover();
@@ -946,13 +931,71 @@
       </iframe>
     </div>
   </section>
-  <footer>
-    <h2>E TECHNOLOGIES.</h2>
+  <footer class="footer">
 
-    <div>
-      <a href="./privacy-policy.html">Read Our Privacy Policy</a> <br />
-      &copy; 22024 E TECHNOLOGIES.
+    <div id="footerIcon" class="col-md-5.5 text-center">
+      <h2 class="footerTitle">
+        <img src="./assets/images/LogoNoBg.png" height="50" alt="Logo" loading="lazy" />
+        E TECHNOLOGIES LLC
+      </h2>
+
+      <div class="flex-container ">
+
+        <a href="https://www.facebook.com/profile.php?id=61551243753173"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24">
+            <path
+              d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+          </svg>
+        </a>
+
+        <a href="https://www.instagram.com/etechnologies123/"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24">
+            <path
+              d="M14.667 12c0 1.473-1.194 2.667-2.667 2.667-1.473 0-2.667-1.193-2.667-2.667 0-1.473 1.194-2.667 2.667-2.667 1.473 0 2.667 1.194 2.667 2.667zm3.846-3.232c.038.843.046 1.096.046 3.232s-.008 2.389-.046 3.233c-.1 2.15-1.109 3.181-3.279 3.279-.844.038-1.097.047-3.234.047-2.136 0-2.39-.008-3.232-.046-2.174-.099-3.181-1.132-3.279-3.279-.039-.845-.048-1.098-.048-3.234s.009-2.389.047-3.232c.099-2.152 1.109-3.181 3.279-3.279.844-.039 1.097-.047 3.233-.047s2.39.008 3.233.046c2.168.099 3.18 1.128 3.28 3.28zm-2.405 3.232c0-2.269-1.84-4.108-4.108-4.108-2.269 0-4.108 1.839-4.108 4.108 0 2.269 1.84 4.108 4.108 4.108 2.269 0 4.108-1.839 4.108-4.108zm1.122-4.27c0-.53-.43-.96-.96-.96s-.96.43-.96.96.43.96.96.96c.531 0 .96-.43.96-.96zm6.77-7.73v24h-24v-24h24zm-4 12c0-2.172-.009-2.445-.048-3.298-.131-2.902-1.745-4.52-4.653-4.653-.854-.04-1.126-.049-3.299-.049s-2.444.009-3.298.048c-2.906.133-4.52 1.745-4.654 4.653-.039.854-.048 1.127-.048 3.299 0 2.173.009 2.445.048 3.298.134 2.906 1.746 4.521 4.654 4.654.854.039 1.125.048 3.298.048s2.445-.009 3.299-.048c2.902-.133 4.522-1.745 4.653-4.654.039-.853.048-1.125.048-3.298z" />
+          </svg>
+        </a>
+
+        <a href="mailto: owner@etechinnovations.com"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+            viewBox="0 0 24 24">
+            <path
+              d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z" />
+          </svg>
+        </a>
+
+      </div>
+
     </div>
+
+    <div class="row">
+      <div id="footerA"  class="col-md-5.5 flex">
+        <div class="d-flex flex-row">
+          <div>
+            <a href="">Home</a>
+          </div>
+          <div>
+            <a href="./web.html">Website Design</a>
+          </div>
+          <div>
+            <a href="./photos.html">Photos/Video</a>
+          </div>
+          <div>
+            <a href="#social-media">Social Media</a>
+          </div>
+          <div>
+            <a href="#advertising">Advertising</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="row text-center">
+          <a href="./privacy-policy.html">Read Our Privacy Policy</a><br />
+          &copy; 2024 E TECHNOLOGIES LLC
+        </div>
+
+      </div>
+
+    </div>
+
+
   </footer>
 </div>
 
