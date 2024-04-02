@@ -67,26 +67,6 @@ header nav ul {
   /* padding: 20px; / */
 }
 
-/* header nav ul li a {
-  
-  padding: 10px 15px;
-  font-weight: lighter;
-  font-size: 1.55vw;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-header nav ul li a:hover {
-  
-  background: silver;
-  color: var(--primary-color);
-  border-radius: 15px;
-  text-shadow: none;
-  background: linear-gradient(90deg, #000fff, #4b4a4a);
-
-  background-size: 250% 100%;
-  background-position: 250% 0;
-  transition: background-position 0.5s ease-in-out;
-} */
 
 header nav ul li a {
   --b: 0.1em;
@@ -117,29 +97,7 @@ header nav ul li a:hover {
 
 
 /* FOOTER STYLES START */
-/* footer {
-  background: var(--primary-color);
-  padding: 40px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 100%;
-}
 
-footer h2 {
-  color: var(--secondary-color);
-  font-size: 30px;
-  margin: 0;
-}
-
-footer div {
-  line-height: 1.5;
-  text-align: right;
-}
-
-footer a {
-  color: var(--secondary-color);
-} */
 .footer {
   /* background-color: var(--primary-color); */
   color: var(--secondary-color);
@@ -183,15 +141,7 @@ footer a {
 .footerTitle {
   margin-top: 0px;
 }
-/* .policy{
 
-} */
-/* .footer a {
-  justify-content: space-between;
-} */
-/* #footerIcon{
-  justify-content: space-between;
-} */
 
 .flex-container {
   display: flex;
@@ -452,40 +402,7 @@ section {
   height: auto;
 }
 
-/* .gallery1 .row {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 15px; 
-  justify-content: center;
-}
 
-.gallery1 .col-md-3 {
-  height: auto; 
-  width: auto;
-}
-
-.gallery1 img {
-  width: 100%;
-  height: auto;
-  object-fit: cover ;
-} */
-/* .gallery1 .row {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 15px; 
-  justify-content: center;
-} */
-/* .gallery1 .row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-
-/* .sm-text p {
-  color: var(--tertiary-color);
-  font-size: 18px;
-} */
 
 .sm-text h4 {
   font-size: 26px;
@@ -493,15 +410,16 @@ section {
   color: var(--secondary-color);
 }
 
-/* WHAT YOU DO STYLES END */
 
-/* MEET THE advertising START */
+
+/*  advertising START */
 .advertising {
   width: 100%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-top: 25px;
 }
 
 .ad {
@@ -647,11 +565,7 @@ section {
       flex-direction: column;
     }
   }
-  /* 
-  header h1 {
-    width: 100%;
-    text-align: center;
-  } */
+
 
   header nav ul {
     margin-top: 20px;
@@ -813,7 +727,7 @@ background-position:center;
   padding: 3px;
 }
 
-.smS p {
+.smS p, .adS p {
   line-height: 1.7;
   color: black;
   width: 80%;
