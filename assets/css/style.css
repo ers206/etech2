@@ -128,8 +128,9 @@ header nav ul li a:hover {
 .footer a {
   font-size: larger;
 }
-.panel-footer{
-  height:100px; 
+
+.panel-footer {
+  height: 100px;
 
 }
 
@@ -210,6 +211,7 @@ section {
   margin: 5px 0 15px 0;
 }
 
+/* FORM on web page */
 .form-input {
   border: 1px solid var(--secondary-color);
   display: block;
@@ -344,6 +346,11 @@ section {
   background: var(--primary-color);
 }
 
+.carousel {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+/* SOCIAL MEDIA section */
 .sm {
   margin: 50px auto;
   padding-bottom: 50px;
@@ -384,6 +391,7 @@ section {
   flex: 12;
 }
 
+/* GALLERY1 CSS photo page */
 .gallery1 .row {
   display: flex;
   flex-wrap: wrap;
@@ -560,6 +568,7 @@ section {
   }
 
   @media (max-width: 768px) {
+
     /* Adjusting the flex-direction to column for small screens */
     #footerA .d-flex.flex-row {
       flex-direction: column;
@@ -690,6 +699,8 @@ background-position:center;
   object-fit: cover;
 }
 
+/* MODAL CSS */
+
 /* Limit the height of the modal content */
 .modal-content {
   max-height: 80vh;
@@ -713,46 +724,6 @@ background-position:center;
 
 .modal p {
   text-align: center;
-}
-
-/* .link-to-site { 
-  text-align: center;
-} */
-
-.card {
-  border-style: solid;
-  border-width: 1px 1px 1px 1px;
-  border-color: black;
-  border-radius: 0.3rem;
-  padding: 3px;
-}
-
-.smS p, .adS p {
-  line-height: 1.7;
-  color: black;
-  width: 80%;
-  margin: 0 auto;
-  font-size: 20px;
-  text-align: center;
-
-}
-
-.photo p {
-  line-height: 1.7;
-  color: black;
-  width: 80%;
-  margin: 0 auto;
-  font-size: 20px;
-  text-align: center;
-}
-
-#topRow {
-  margin-bottom: 7px;
-}
-
-.border1 {
-  border: #02466b;
-
 }
 
 #myModal5 .modal-dialog,
@@ -788,6 +759,48 @@ background-position:center;
   overflow: auto;
   /*Allow scrolling within the modal body if content is too large*/
 }
+
+
+/* MODAL END */
+
+
+.card {
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: black;
+  border-radius: 0.3rem;
+  padding: 3px;
+}
+
+.smS p,
+.adS p {
+  line-height: 1.7;
+  color: black;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.photo p {
+  line-height: 1.7;
+  color: black;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+#topRow {
+  margin-bottom: 7px;
+}
+
+.border1 {
+  border: #02466b;
+
+}
+
 
 
 
@@ -832,13 +845,8 @@ background-position:center;
   padding-top: 20%;
 }
 
-/* icons for web tech section */
 
-/* .section-title {
-      text-align: center;
-      font-size: 24px;
-    } */
-
+/* TECH section on web page  */
 .webTech {
   text-align: center;
   /*  */
@@ -874,7 +882,7 @@ background-position:center;
   flex-wrap: wrap;
 }
 
-
+/* **************************changing button section below may not be needed*/
 
 /* buttons ion web design page */
 .btn-custom-font1 {
@@ -966,6 +974,7 @@ background-position:center;
       0% 100%);
 }
 
+/* *********************changing button section below may not be needed */
 #hoverB1:hover {
   /* color: pink; */
   background-color: green;
@@ -974,15 +983,16 @@ background-position:center;
 
 #hoverB2:hover {
   /* color: pink; */
-  color:  red
+  color: red
 }
 
 #hoverB3:hover {
-  color:red;
+  color: red;
   background-color: rgb(16, 17, 16);
 }
+
 #hoverB4:hover {
- font-size: 50px;
+  font-size: 50px;
 }
 
 .webForm {
@@ -990,91 +1000,99 @@ background-position:center;
 }
 
 
+/*  navbar css not sure how if im going to use below**************** */
+#navbar2 .navbar-nav .nav-item {
+  margin-right: 15px;
+}
 
-    #navbar2 .navbar-nav .nav-item {
-      margin-right: 15px;
-    }
+#navbar2 .navbar-brand,
+#navbar2 .navbar-nav .nav-link {
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
 
-    #navbar2 .navbar-brand, #navbar2 .navbar-nav .nav-link {
-      color: #333;
-      padding: 10px 20px;
-      border-radius: 8px;
-    }
+#navbar2 .navbar-brand:hover,
+#navbar2 .navbar-nav .nav-link:hover {
+  background-color: #f0f0f0;
+}
 
-    #navbar2 .navbar-brand:hover, #navbar2 .navbar-nav .nav-link:hover {
-      background-color: #f0f0f0;
-    }
+/* Custom CSS for centering the navbar items */
+#navbar2 .navbar-nav {
+  flex-direction: row;
+  justify-content: flex-end;
+}
 
-    /* Custom CSS for centering the navbar items */
-    #navbar2 .navbar-nav {
-      flex-direction: row;
-      justify-content: flex-end;
-    }
+#navbar2 .navbar-nav .nav-item {
+  text-align: center;
+}
 
-    #navbar2 .navbar-nav .nav-item {
-      text-align: center;
-    }
+/* Custom CSS for Navbar 3 */
+#navbar3 .navbar-nav .nav-item {
+  margin-right: 20px;
+  /* justify-content: space-around; */
+}
 
-    /* Custom CSS for Navbar 3 */
-    #navbar3 .navbar-nav .nav-item {
-      margin-right: 20px;
-      /* justify-content: space-around; */
-    }
+#navbar3 .navbar-brand,
+#navbar3 .navbar-nav .nav-link {
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 3px;
+}
 
-    #navbar3 .navbar-brand, #navbar3 .navbar-nav .nav-link {
-      color: #fff;
-      padding: 6px 12px;
-      border-radius: 3px;
-    }
+#navbar3 .navbar-brand:hover,
+#navbar3 .navbar-nav .nav-link:hover {
+  background-color: #007bff;
+}
 
-    #navbar3 .navbar-brand:hover, #navbar3 .navbar-nav .nav-link:hover {
-      background-color: #007bff;
-    }
+/* Custom CSS for Navbar 5 */
+#navbar5 .navbar-nav .nav-item {
+  margin-right: 10px;
+}
 
-        /* Custom CSS for Navbar 5 */
-        #navbar5 .navbar-nav .nav-item {
-          margin-right: 10px;
-        }
-    
-        #navbar5 .navbar-brand, #navbar5 .navbar-nav .nav-link {
-          color: #333;
-          padding: 8px 15px;
-          border-radius: 5px;
-        }
-    
-        #navbar5 .navbar-brand:hover, #navbar5 .navbar-nav .nav-link:hover {
-          background-color: #f0f0f0;
-        }
-    
-        #navbar5 .form-inline .form-control {
-          width: 300px;
-        }
+#navbar5 .navbar-brand,
+#navbar5 .navbar-nav .nav-link {
+  color: #333;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
 
-    /* Custom CSS for Centered Text Navbar */
-    #navbar6 .navbar-brand {
-      margin-left: auto;
-      margin-right: auto;
-    }
+#navbar5 .navbar-brand:hover,
+#navbar5 .navbar-nav .nav-link:hover {
+  background-color: #f0f0f0;
+}
 
-    #navbar6 .navbar-nav {
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-    }
+#navbar5 .form-inline .form-control {
+  width: 300px;
+}
 
-    #navbar6 .navbar-nav .nav-item {
-      display: inline-block;
-    }
+/* Custom CSS for Centered Text Navbar */
+#navbar6 .navbar-brand {
+  margin-left: auto;
+  margin-right: auto;
+}
 
-    #navbar6 .navbar-brand, #navbar6 .nav-link {
-      color: #333;
-      padding: 10px 20px;
-      border-radius: 8px;
-    }
+#navbar6 .navbar-nav {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-    #navbar6 .navbar-brand:hover, #navbar6 .nav-link:hover {
-      background-color: #f0f0f0;
-    } 
+#navbar6 .navbar-nav .nav-item {
+  display: inline-block;
+}
+
+#navbar6 .navbar-brand,
+#navbar6 .nav-link {
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+#navbar6 .navbar-brand:hover,
+#navbar6 .nav-link:hover {
+  background-color: #f0f0f0;
+}
 
 .accordion-item img {
   /* max-width: 100%;  */
@@ -1082,13 +1100,13 @@ background-position:center;
   height: 300px;
 }
 
-.carousel {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-#accImage1, #accImage2 {
+
+
+#accImage1,
+#accImage2 {
   text-align: center;
 }
+
 /* 
 #accImage {
   justify-content: space-between;

@@ -2,7 +2,7 @@
 <!-- complete this readme like the ones in class -->
 <!-- 
    
-    
+    -put in physical email address not just link
     -give space on sides of footer on larger screens. maybe enlarge font
   
     

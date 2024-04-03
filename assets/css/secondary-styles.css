@@ -1,6 +1,6 @@
 /* SECONDARY PAGE STYLES */
-.hero {
-  /* background-image: ; */
+/* .hero {
+ 
   background-position: bottom;
   height: auto;
   text-align: center;
@@ -8,7 +8,7 @@
 }
 
 .hero1 {
-  /* need to lighten image and maybe make larger and center */
+
   background-image: url('../images/LogoNoBg.png');
 }
 
@@ -46,4 +46,4 @@
 .secondary-content li {
   color: #080808;
   margin: 10px 0;
-}
+} */
