@@ -33,8 +33,8 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!-- 
    
     -put in physical email address not just link********done but might need to put in in more places
-    -give space on sides of footer on larger screens. maybe enlarge font
-  
+    -give space on sides of footer on larger screens. maybe enlarge font.....looks way better.
+    -make sure to delete all images not being used....check again deleted a bunch 4-4
     
 
         
@@ -47,7 +47,7 @@ Eric Schweitzer at E TECHNOLOGIES LLC
         
 <!-- *************3/25  -->
 <!-- photos page
-        
+        add video
          -->
 
  <!-- web page

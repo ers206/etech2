@@ -104,7 +104,7 @@ header nav ul li a:hover {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   font-size: 14px;
   font-family: Arial, sans-serif;
@@ -115,6 +115,14 @@ header nav ul li a:hover {
   margin: 5px;
   padding: 0%;
 }
+/* #footerPage{
+  text-align: center;
+}
+
+#footerIcon {
+  text-align: center;
+
+} */
 
 .footer a {
   color: var(--secondary-color);
@@ -338,6 +346,10 @@ section {
   text-align: center;
 }
 
+/* .footer {
+  padding-left: 20px;
+  padding-right: 20px;
+} */
 
 .smS,
 .photo,
@@ -574,7 +586,13 @@ section {
       flex-direction: column;
     }
   }
-
+  /* @media (min-width: 992px) {
+    footer .footer {
+    
+      margin-left: auto;
+      margin-right: auto;
+    }
+  } */
 
   header nav ul {
     margin-top: 20px;
