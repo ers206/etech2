@@ -166,7 +166,9 @@ header nav ul li a:hover {
 section {
   padding: 60px;
 }
-
+.contact {
+  padding: 10px;
+}
 /* HERO STYLES START */
 .hero {
   background-image: url('../images/logoNoWriting.jpg');
@@ -678,6 +680,16 @@ background-position:center;
 
 
 
+/* @media (max-width: 767px) {
+  #navbar5 .navbar-collapse {
+    flex-basis: 100%;
+    display: none;
+  }
+  #navbar5 .navbar-collapse.collapsing {
+    display: block;
+  }
+}  */
+
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
   .hero-form button {
@@ -1045,7 +1057,17 @@ background-position:center;
   text-align: center;
 }
 
+
 /* Custom CSS for Navbar 3 */
+#needLower{
+  position: absolute;
+  top: 30%;
+}
+/*  cant get navbars (navbar3 and navbar5 to addjust to screens below 768px */
+#navbar3{
+  display: flex;
+  flex-wrap: wrap;
+}
 #navbar3 .navbar-nav .nav-item {
   margin-right: 20px;
   /* justify-content: space-around; */

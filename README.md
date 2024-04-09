@@ -46,11 +46,13 @@ Eric Schweitzer at E TECHNOLOGIES LLC
         -organize and explain front and back end 
 
         -collor sections 
-        -headers/navbar and footers in the same section.
+       
+        -need navbars to be responsive*******************
         -add row of hover effects not nesiccarilly buttons
         -tech symbols....looks good, add color ?************** only if easy 
         -check cards
-        -fix navbars.....just need to be centered ->
+       
 
 
 <!-- https://freefrontend.com/css-hover-effects/page/3/ -->
+
