@@ -32,27 +32,32 @@ Constructed using HTML, CSS, and Bootstrap, this website offers a glimpse into t
 Eric Schweitzer at E TECHNOLOGIES LLC
 
 &copy; E TECHNOLOGIES LLC
-<!-- complete this readme like the ones in class -->
-<!-- 
-   
-    
-    -make sure to delete all images not being used....check again deleted a bunch 4-4
- -->
-<!-- photos page
-        add video add to youtube or page?
-         -->
+
+<
 
  <!-- web page
-        -organize and explain front and back end 
-
-        -collor sections 
+       
+        -add video add to youtube or page?
+       -make sure to delete all images not being used....check again deleted a bunch 4-4
        
         -need navbars to be responsive*******************
         -add row of hover effects not nesiccarilly buttons
-        -tech symbols....looks good, add color ?************** only if easy 
-        -check cards
-       
+        
+        
+       -buy godaddy plan 
 
 
 <!-- https://freefrontend.com/css-hover-effects/page/3/ -->
 
+
+<!-- do I need aon all pages******************************** -->
+   <!-- <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          { pageLanguage: 'en' },
+          'google_translate_element'
+        );
+      }
+    </script>
+
+    <div id="google_translate_element"></div> -->

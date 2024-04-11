@@ -356,7 +356,7 @@ section {
 .smS,
 .photo,
 .gallery1,
-.carouselSection {
+.carouselSection, .webCard, .webColapse, .webNavbar {
   background: var(--primary-color);
 }
 
