@@ -37,14 +37,14 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
  <!-- web page
        
-        -add video add to youtube or page?
+        -add video add to youtube or page? added all to youtube***********check how they look
        -make sure to delete all images not being used....check again deleted a bunch 4-4
        
-        -need navbars to be responsive*******************
+        -need navbars to be responsive*******************maybe just delelete section
         -add row of hover effects not nesiccarilly buttons
+        -video leaves space when small screen
         
-        
-       -buy godaddy plan 
+       -
 
 
 <!-- https://freefrontend.com/css-hover-effects/page/3/ -->

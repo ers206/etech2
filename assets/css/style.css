@@ -164,7 +164,7 @@ header nav ul li a:hover {
 
 /* STYLE ALL SECTION TAGS */
 section {
-  padding: 60px;
+  padding: 20px;
 }
 .contact {
   padding: 10px;
@@ -833,26 +833,34 @@ background-position:center;
 
 
 
-
 #bgImage p {
   font-size: larger;
   line-height: 2;
 }
 
 /* Custom CSS */
+
+
+/* .video-background p {
+      color: rgb(58, 7, 243);
+    } */
+/* .overlay{ 
+
+} */
+/* .videoText{
+  opacity: 2;
+} */
+
+/* ***************************************** video is cut off on top might need to crop it****************************** */
 .video-background {
   position: relative;
   overflow: hidden;
   width: 100%;
   height: 100vh;
-  /* Adjust height as needed */
+  
   padding: 10px;
   margin: 10px;
 }
-
-/* .video-background p {
-      color: rgb(58, 7, 243);
-    } */
 
 .video-background video {
   position: absolute;
@@ -866,15 +874,30 @@ background-position:center;
   transform: translate(-50%, -50%);
 }
 
-.content {
+/* deleted below div was holding top image on photo/video page  */
+.topVideo {
+  /* position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #ffffff; */
+  /* min-width: auto;
+  min-height: 100%; */
+  height: 100%;
+  width: auto;
+  padding-top: 10%;
+  padding-bottom: 30%;
+}
+/* want text over youtube video  */
+/* .BottomVideoText{
   position: relative;
   z-index: 1;
   text-align: center;
-  color: #ffffff;
-  /* Text color on top of the video */
-  padding-top: 20%;
-}
-
+  
+} */
+/* .topVideo{
+  width: 100%;
+  height: auto;
+} */
 
 /* TECH section on web page  */
 .webTech {
@@ -1156,6 +1179,7 @@ background-position:center;
 
 
 
+
 .ag-offer_item {
   width: 33.33%;
 
@@ -1361,6 +1385,24 @@ background-position:center;
     -ms-transform: none;
     -o-transform: none;
     transform: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #bgImage p {
+      font-size: medium
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #bgImage p {
+      font-size: small
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #bgImage p {
+      font-size: smaller
   }
 }
 

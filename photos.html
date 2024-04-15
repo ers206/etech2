@@ -60,19 +60,38 @@
   <!-- <section> -->
   <!-- put terrace image as background for the text? it might look good -->
   <section id="bgImage">
+    <div class="flex-row">
+      <h2 class="section-title primary-border">
+        Photos/Video
+      </h2>
+    </div>
     <!--show a background video -->
     <div class="video-background">
       <!-- make copy of video and put back in gopro folder I took video out of file to push to github
                     it didnt push with videos in file -->
-      <video autoplay muted loop>
-        <source src="./assets/images/mapleBluff2.MP4" type="video/mp4">
-        Your browser does not support the video tag.
+      <video class="topVideo" autoplay muted loop>
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/sgQ8kIll2fc?si=MFqYAxSbBMFnC4t5"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+        <source src="./assets/images/MBedit.mp4" type="video/mp4">
+        <!-- Your browser does not support the video tag. -->
       </video>
-      <div class="content">
+      <div class="content ">
         <!-- create link to web design page-->
-        <h1>PHOTOS/VIDEO</h1>
+        <!-- <h1 style="text-align: center; ">PHOTOS/VIDEO</h1> -->
         <!-- all photos are property of E TECHNOLOGIES LLC -->
-        <p>
+        <div class="overlay"
+        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(255, 255, 255, 0.40); padding: 10px; width:75%">
+                <p class="VideoText" style="text-align: center; font-weight: bold"> Incorporating videos and photos into a website significantly enhances its visual appeal and engagement
+          potential. These multimedia elements captivate visitors' attention, providing dynamic and immersive
+          experiences. For instance, integrating text over a video not only conveys information effectively but also
+          adds depth and context to the content. Furthermore, ensuring that all images throughout the site are owned by
+          E Technologies LLC establishes credibility and reinforces the brand's identity, while also safeguarding
+          against copyright infringement issues. This strategic use of multimedia assets not only enriches the website's
+          aesthetics but also contributes to a memorable and compelling user experience. </p>
+      </div>
+        <!-- <p style="color: black; text-align: center "  >
           Incorporating videos and photos into a website significantly enhances its visual appeal and engagement
           potential. These multimedia elements captivate visitors' attention, providing dynamic and immersive
           experiences. For instance, integrating text over a video not only conveys information effectively but also
@@ -80,24 +99,10 @@
           E Technologies LLC establishes credibility and reinforces the brand's identity, while also safeguarding
           against copyright infringement issues. This strategic use of multimedia assets not only enriches the website's
           aesthetics but also contributes to a memorable and compelling user experience.
-        </p>
+        </p> -->
       </div>
     </div>
-    <!-- <h1 class="text-center">PHOTOS/VIDEO</h1>
-    <p class="text-center" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-      labore et dolore
-      magna aliqua. Vel pharetra vel turpis nunc eget lorem dolor sed. Urna et pharetra pharetra massa massa. Est sit
-      amet facilisis magna etiam. Arcu cursus vitae congue mauris rhoncus. Nunc mattis enim ut tellus elementum
-      sagittis. Et ultrices neque ornare aenean euismod elementum nisi quis. Ornare arcu odio ut sem nulla pharetra.
-      Consectetur adipiscing elit ut aliquam purus sit. Vestibulum mattis ullamcorper velit sed. Molestie ac feugiat sed
-      lectus. Vitae aliquet nec ullamcorper sit amet risus nullam eget. Ac turpis egestas integer eget aliquet nibh.
-      Feugiat scelerisque varius morbi enim nunc. Urna nunc id cursus metus aliquam eleifend. Nunc non blandit massa
-      enim nec dui nunc. Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna. Imperdiet sed euismod
-      nisi porta lorem mollis aliquam ut porttitor. Sit amet nisl purus in mollis nunc sed id semper. Amet nisl purus in
-      mollis. At urna condimentum mattis pellentesque id nibh. In fermentum posuere urna nec tincidunt praesent. Ipsum
-      dolor sit amet consectetur adipiscing elit. Dui id ornare arcu odio ut sem. Enim sed faucibus turpis in eu mi.
-      Sagittis eu volutpat odio facilisis mauris sit amet. Amet nisl purus in mollis nunc. Mauris sit amet massa vitae
-      tortor condimentum lacinia quis.</p> -->
+
   </section>
   <!-- these images aadjust to the screensize img-rounded and img-circle work-->
   <section class="gallery1">
@@ -237,16 +242,16 @@
       <!-- Image 1 -->
       <div id="topRow" class="col-md-3 d-flex justify-content-center">
         <a href="#" data-toggle="modal" data-target="#myModal1">
-          <img style="border: 5px outset grey" src="./assets/images/nycMall.jpg"
-            class="img-thumbnail image-fluid" alt="Image 1">
+          <img style="border: 5px outset grey" src="./assets/images/nycMall.jpg" class="img-thumbnail image-fluid"
+            alt="Image 1">
         </a>
       </div>
 
       <!-- Image 2 -->
       <div id="topRow" class="col-md-3">
         <a href="#" data-toggle="modal" data-target="#myModal2">
-          <img style="border: 5px outset grey" src="./assets/images/skyLine.jpg"
-            class="img-thumbnail image-fluid" alt="Image 2">
+          <img style="border: 5px outset grey" src="./assets/images/skyLine.jpg" class="img-thumbnail image-fluid"
+            alt="Image 2">
         </a>
       </div>
 
@@ -297,7 +302,8 @@
       <!-- Image 8 -->
       <div class="col-md-3">
         <a href="#" data-toggle="modal" data-target="#myModal8">
-          <img style="border: 10px double rgb(17, 12, 12)" src="./assets/images/nycClean.jpg" class="img-thumbnail" alt="Image 8">
+          <img style="border: 10px double rgb(17, 12, 12)" src="./assets/images/nycClean.jpg" class="img-thumbnail"
+            alt="Image 8">
         </a>
       </div>
     </div>
@@ -509,7 +515,7 @@
   </section>
 
   <section class="videoSection">
-   
+
     <!-- can I put video over video, show other overlay besides text -->
 
 
@@ -528,33 +534,39 @@
 
     <div class="video-background">
       <!-- Use your video file here -->
-      <video autoplay muted loop>
+      <!-- <video autoplay muted loop>
         <source src="./assets/images/GH010205.MP4" type="video/mp4">
         Your browser does not support the video tag.
-      </video>
-      <div class="content">
+      </video> -->
+      <div class="embed-responsive embed-responsive-16by9">
+      <iframe width="fill" height="fill" src="https://www.youtube.com/embed/B85sOb0-_bs?si=5HpQW2quuSi21As6"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div class="BottomVideoText">
         <!-- add something besides a text over the image to give another example-->
-        <h1>Welcome to Our Website</h1>
-        <p>This is some content over the video background.</p>
+        <h1 style="color:black">Welcome to Our Website</h1>
+        <p style="color:black">This is some content over the video background.</p>
       </div>
     </div>
-    
+    </div>
+
     <!-- find free video or take video -->
     <div style="display: flex; justify-content: space-between;">
       <div style="flex: 1; margin-right: 10px;">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe style="width: 100%; height: 100%;" src="https://www.youtube.com/embed/ye3sMhZ_8eE"
-            title="How to Capture Epic Surf Videos With Your GoPro" frameborder="0"
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/sgQ8kIll2fc?si=MFqYAxSbBMFnC4t5"
+            title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
       <div style="flex: 1; margin-left: 10px;">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe style="width: 100%; height: 100%;" src="https://www.youtube.com/embed/t6_Sd4IrSow"
-            title="How to Capture Underwater Dive + Snorkel Shots With Your GoPro" frameborder="0"
+          <iframe width="1280" height="720" src="https://www.youtube.com/embed/2eFlIUYt4hs" title="stock underwater"
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -562,49 +574,7 @@
 
 
   </section>
-  <!-- <section id="contact us" class="contact">
 
-
-    <div class="contact-info">
-      <div>
-        <h3>E TECHNOLOGIES</h3>
-        <p>
-          Any questions or concerns before signing up?
-          <br />
-          Let us know and we'll be happy to talk to you!
-        </p>
-
-        <address>
-          55 Main Street <br />
-          Some Town, Ca <br />
-          12345<br />
-          P: (555.786.2839)<br />
-          E: <a href="mailto:owner@etechinnovations.com
-              ">owner@etechinnovations.com
-          </a>
-        </address>
-
-      </div>
-
-      <div class="contact-form">
-        <h3>Contact Us</h3>
-        <form>
-          <label for="contact-name">Your Name</label>
-          <input type="text" id="contact-name" placeholder="Your Name" />
-
-          <label for="contact-message">Message</label>
-          <textarea id="contact-message" placeholder="Message"></textarea>
-
-          <button type="submit">Submit</button>
-        </form>
-      </div>
-
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12182.30520634488!2d-74.0652613!3d40.2407219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1561060983193!5m2!1sen!2sus"
-        frameborder="0" style="border:0" allowfullscreen>
-      </iframe>
-    </div>
-  </section> -->
   <!-- <script src="./js/photos.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
