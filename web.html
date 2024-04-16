@@ -192,8 +192,8 @@
       <!-- First three accordion items -->
       <div class="accordion-item">
         <h2 class="accordion-header text-center">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-            aria-expanded="true" aria-controls="collapseOne">
+          <button class="accordion-button btn-primary" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             Accordion Item 1
           </button>
         </h2>
@@ -207,7 +207,7 @@
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header text-center">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          <button class="accordion-button collapsed btn-primary" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             Accordion Item 2
           </button>
@@ -276,7 +276,7 @@
 
 
 
-    <!-- <nav id="navbar6" class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- <nav id="navbar6" class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Brand 6</a>
       <div class="collapse navbar-collapse" id="navbarNav6">
         <ul class="navbar-nav">
@@ -293,8 +293,8 @@
       </div>
     </nav> -->
 
-    <!-- **************************************************************************************************** -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- **************************************************************************************************** -->
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -377,7 +377,8 @@
       <div class="col-md-4">
         <div class="card border">
           <!-- image wont stay on card it overflows to other containers -->
-          <img class="card-img-top img-fluid" style="max-width:100%" src="./assets/images/lillyPads.jpg" alt="Card image cap">
+          <img class="card-img-top img-fluid" style="max-width:100%" src="./assets/images/lillyPads.jpg"
+            alt="Card image cap">
           <div class="card-body text-center">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -412,7 +413,8 @@
 
       <div class="col-md-4">
         <div class="card border">
-          <img class="card-img-top img-fluid" style="max-width:100%" src="./assets/images/nycPark3.jpg" alt="Card image cap">
+          <img class="card-img-top img-fluid" style="max-width:100%" src="./assets/images/nycPark3.jpg"
+            alt="Card image cap">
           <div class="card-header">
             Featured
           </div>
@@ -452,7 +454,7 @@
         <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Tooltip">Tooltip
           Hover for effect</button>
         <button type="button" class="btn btn-secondary"><a href="">Link</a></button>
-\
+
         <button type="button" class="btn btn-warning btn-sm">Small Button</button>
         <button type="button" class="btn btn-success btn-lg">Large Button</button>
       </div>
@@ -473,7 +475,7 @@
       </div>
     </div>
 
-\
+
 
 
     <div class="button-container">
@@ -495,58 +497,67 @@
 
 
     <!-- make side by side -->
-    <div class="button-container col-md-6 row">
-      <button type="button" class="btn btn-primary btn-lg btn-block">Block button</button>
-      <button type="button" class="btn btn-secondary btn-lg btn-block">Block button</button>
-    </div>
-    </div>
-  </section>
+    <!-- </div> -->
+    <!-- <div> -->
+      <div class="row" style="justify-content: space-between;">
+        <div class="button-container col-md-6 ">
+          <button type="button" class="btn btn-primary btn-lg btn-block p-10 " style="position: absolute; top: 100;">Block button</button>
+          <!-- <button type="button" class="btn btn-secondary btn-lg btn-block pb-10">Block button</button> -->
+        </div>
+        
+        <div class="hover2div">
+        <h3 class="hover-2 col-md-4" style="width: 40%;">Hover Here</h3>
+      </div>
+      </div>
+  
   <!-- this needs to be centered and a seperate section. use practice.html -->
-  <section class="hooverS ">
-    <div class="button-container mt-10 ">
-      <div>
-        <button id="hoverB1" type="button btn-danger" class="btn ">Hover</button>
-      </div>
-      <div>
-        <button id="hoverB2" type="button" class="btn ">Hover</button>
-      </div>
-      <div>
-        <button id="hoverB3" type="button" class="btn ">Hover</button>
-      </div>
-      <div>
-        <button id="hoverB4" type="button" class="btn ">Hover</button>
-      </div>
+  <!-- <section class="hooverS"> -->
+  <div class="button-container ">
+    <div>
+      <button id="hoverB1" type="button btn-danger" class="btn ">Hover</button>
     </div>
     <div>
-      <div>
-        <h3 class="hover-2 ">Hover Me</h3>
-      </div>
-      <div class="ag-offer-block">
-        <div class="ag-format-container">
-          <!-- <ul class="ag-offer_list"> -->
-          <li class="ag-offer_item">
-            <div class="ag-offer_visible-item">
-              <div class="ag-offer_img-box">
-                <img src="./assets/images/icons8-computer-100.png" class="ag-offer_img" alt="" />
-              </div>
-              <div class="ag-offer_title">
-                Hover here
-              </div>
-            </div>
-            <div class="ag-offer_hidden-item">
-              <p class="ag-offer_text">
-                Add text here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              </p>
-            </div>
-          </li>
-
-        </div>
-      </div>
+      <button id="hoverB2" type="button" class="btn ">Hover</button>
     </div>
-    <!-- <button id="hoverB11" type="button" class="btn hover-2">Hover</button> -->
-    <!-- </div> -->
-  </section>
+    <div>
+      <button id="hoverB3" type="button" class="btn ">Hover</button>
+    </div>
+    <div>
+      <button id="hoverB4" type="button" class="btn ">Hover</button>
+    </div>
+  </div>
+  <!-- <div class="row" > -->
+    <!-- element is in below div I cant get it to center -->
+    <div class="ag-offer-block"  >
 
+      <!-- <div class="ag-format-container row"> -->
+      <!-- <ul class="ag-offer_list"> -->
+      <li class="ag-offer_item" >
+        <div class="ag-offer_visible-item" >
+          <div class="ag-offer_img-box">
+            <img src="./assets/images/icons8-computer-100.png" class="ag-offer_img" alt="" />
+          </div>
+          <div class="ag-offer_title">
+            Hover here
+          </div>
+        </div>
+        <div class="ag-offer_hidden-item">
+          <p class="ag-offer_text">
+            Add text here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          </p>
+        </div>
+      </li>
+      <!-- <div class="hover2div">
+        <h3 class="hover-2 col-md-4" style="width: 40%;">Hover Here</h3>
+      </div> -->
+    </div>
+    <!-- </div> -->
+  <!-- </div> -->
+  <!-- </div> -->
+  <!-- <button id="hoverB11" type="button" class="btn hover-2">Hover</button> -->
+  <!-- </div> -->
+  <!-- </section> -->
+</section>
   <!-- not sure I need this section  -->
   <section class="webTable">
     <h2 class="section-title primary-border">
@@ -620,7 +631,7 @@
     </table>
   </section>
 
- 
+
 
 
 
@@ -774,7 +785,7 @@
     </div>
   </section>
 
-  <section class="webNavbar">
+  <!-- <section class="webNavbar">
     <h2 class="section-title primary-border">
       Navbar/Footer
     </h2>
@@ -792,8 +803,7 @@
     </p>
 
 
-    <!-- ******************************everything in the following 2 navbars disappears when screen is below 768px?????????????????? -->
-    <!-- I added flex to every thing and in css added flexwrap....nothing works -->
+
     <nav id="navbar3" class="navbar navbar-expand-md navbar-dark bg-primary flex">
 
       <div class="collapse navbar-collapse flex" id="navbarNav3">
@@ -885,7 +895,7 @@
         </iframe>
       </div>
     </section>
-  </section>
+  </section> -->
 
 
   <!-- <script src="./js/web.js"></script> -->
@@ -917,7 +927,7 @@
 
 
 
-  <footer  class="footer">
+  <footer style="border-top: 3px solid rgb(17, 12, 12)" class="footer">
 
     <div id="footerIcon" class="col-md-5.5 text-center">
       <h2 class="footerTitle">
