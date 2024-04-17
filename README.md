@@ -37,13 +37,11 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
  <!-- web page
        
-        -add video add to youtube or page? added all to youtube***********check how they look
-       -make sure to delete all images not being used....check again deleted a bunch 4-4
        
-        -need navbars to be responsive*******************maybe just delelete section
-        -add row of hover effects not nesiccarilly buttons
+       -make sure to delete all images not being used....check again deleted a bunch 4-4
+
         -video leaves space when small screen
-        
+        -bottom large vide with text over doesnt have text in full screen and bottom is cut off
        -
 
 
