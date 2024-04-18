@@ -22,7 +22,7 @@
 </head>
 
 
-
+<!-- header  -->
 <header>
 
   <h1 class="text-center" href="#">
@@ -47,18 +47,15 @@
         <a href="index.html.#advertising">Advertising</a>
       </li>
 
-      <!-- <li>
-        <a href="index.html.#contact">Contact Us</a>
-      </li> -->
+
     </ul>
   </nav>
 </header>
-<!-- carousel of tree images/ examples of how images can be used on website -->
+
 
 <body>
-  <!-- font not working only italic worked  -->
-  <!-- <section> -->
-  <!-- put terrace image as background for the text? it might look good -->
+
+  <!-- background video and page title -->
   <section id="bgImage">
     <div class="flex-row">
       <h2 class="section-title primary-border">
@@ -99,7 +96,7 @@
     </div>
 
   </section>
-  <!-- these images aadjust to the screensize img-rounded and img-circle work-->
+ 
   <section class="gallery1">
     <div class="flex-row">
       <h2 class="section-title secondary-border">
@@ -117,7 +114,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <!-- margin-bottom: 7px; in on top row will need to change ids to put borders on and round edges more mayb put background behind it -->
+        
           <img id="topRow" style="border: 3px solid lightgreen" class="img-circle img-fluid"
             src="./assets/images/sunsetLake.jpg" alt="many clothes and pictures">
         </div>
@@ -168,11 +165,7 @@
 
 
 
-  <!-- might want to make gackground for each section different -->
-
-  <!-- modal, video, carousel are not as wide as photo section. bc of container?  -->
-  <!-- looks like container below is holding rest of page  -->
-  <!-- <div class="container ">  -->
+<!-- modal section -->
   <section class="modalSection">
     <div class="flex-row">
       <h2 class="section-title primary-border">
@@ -186,8 +179,7 @@
       descriptions, image galleries, or error messages. Modals often feature a semi-transparent background overlay that
       dims the underlying content to draw focus to the modal window. They provide a non-intrusive way to present content
       while maintaining context within the webpage, offering a seamless user experience.</p>
-    <!-- not centered on page***************************now cnetered bc i took <section> off of above  -->
-    <!-- First Row -->
+ 
     <div class="row ">
       <!-- Image 1 -->
       <div id="topRow" class="col-md-3 d-flex justify-content-center">
@@ -223,7 +215,7 @@
     </div>
 
     <!-- Second Row -->
-    <!-- vertical images dont fit when clicked. they are longer than modal container -->
+    
     <div class="row d-flex justify-content-center">
       <!-- Image 5 -->
       <div class="col-md-3">
@@ -312,9 +304,7 @@
     </div>
 
     <!-- Modal 5 -->
-    <!-- vertical images dont fit when clicked. they are longer than modal container -->
-    <!-- using this one as an example i might need to change the code  -->
-    <!-- when clicked or clicked outside of modal this modal closes. I want that on all of them. It needs to be centered and the text is off too -->
+
     <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
       aria-hidden="true" data-dismiss="modal">
       <div class="modal-dialog" role="document">
@@ -323,8 +313,6 @@
             <img src="./assets/images/nycPark.jpg" class="img-fluid" alt="Image 5" data-dismiss="modal">
             <p>Central Park, New York City</p>
           </div>
-          <!-- <div class="modal-footer"> -->
-          <!-- </div> -->
         </div>
       </div>
     </div>
@@ -338,8 +326,6 @@
             <img src="./assets/images/capitolBand.jpg" class="img-fluid" alt="Image 6" data-dismiss="modal">
             <p>Madison, Wisconsin</p>
           </div>
-          <!-- <div class="modal-footer"> -->
-          <!-- </div> -->
         </div>
       </div>
     </div>
@@ -353,8 +339,6 @@
             <img src="./assets/images/churchSunset2.jpg" class="img-fluid" alt="Image 7" data-dismiss="modal">
             <p>Sunset, Wisconsin</p>
           </div>
-          <!-- <div class="modal-footer"> -->
-          <!-- </div> -->
         </div>
       </div>
     </div>
@@ -368,8 +352,6 @@
             <img src="./assets/images/nycClean.jpg" class="img-fluid" alt="Image 8" data-dismiss="modal">
             <p>Greenwich Village, New York City</p>
           </div>
-          <!-- <div class="modal-footer"> -->
-          <!-- </div> -->
         </div>
       </div>
     </div>
@@ -379,7 +361,7 @@
 
 
 
-
+<!-- carousel section -->
   <section class="carouselSection">
     <div id="carouselDiv">
       <div class="flex-row">
@@ -459,10 +441,8 @@
 
   </section>
 
+<!-- video section -->
   <section class="videoSection">
-
-    <!-- can I put video over video, show other overlay besides text -->
-
 
     <h2 class="section-title primary-border">
       Video
@@ -478,10 +458,9 @@
       optimized for different devices and bandwidths to ensure smooth playback and accessibility across various
       platforms and screen sizes.</p>
 
-    <div class="video-background">
+    <div class="video-background2">
       <div class="embed-responsive embed-responsive-16by9">
-        <!-- bottom of video is cut off changed width and height to auto from fill.  -->
-        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/B85sOb0-_bs?si=5HpQW2quuSi21As6"
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/B85sOb0-_bs?si=5HpQW2quuSi21As6"
           title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -493,7 +472,7 @@
     </div>
 
 
-    <!-- find free video or take video -->
+    <!-- 2 smaller videos -->
     <div style="display: flex; justify-content: space-between;">
       <div style="flex: 1; margin-right: 10px;">
         <div class="embed-responsive embed-responsive-16by9">
@@ -517,85 +496,85 @@
 
   </section>
 
-  <!-- <script src="./js/photos.js"></script> -->
+ 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-</body>
+    
+    
+    
+    
+    <div>
 
-
-
-
-<div>
-
-  <footer style="border-top: 3px solid rgb(17, 12, 12)" class="footer">
-
-    <div id="footerIcon" class="col-md-5.5 text-center">
-      <h2 class="footerTitle">
-        <img src="./assets/images/LogoNoBg.png" height="50" alt="Logo" loading="lazy" />
+      <footer style="border-top: 3px solid rgb(17, 12, 12)" class="footer">
+        
+        <div id="footerIcon" class="col-md-5.5 text-center">
+          <h2 class="footerTitle">
+            <img src="./assets/images/LogoNoBg.png" height="50" alt="Logo" loading="lazy" />
         E TECHNOLOGIES LLC
       </h2>
 
       <div class="flex-container ">
-
+        
         <a href="https://www.facebook.com/profile.php?id=61551243753173"><svg xmlns="http://www.w3.org/2000/svg"
-            width="35" height="35" viewBox="0 0 24 24">
-            <path
-              d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
-          </svg>
-        </a>
-
-        <a href="https://www.instagram.com/etechnologies123/"><svg xmlns="http://www.w3.org/2000/svg" width="35"
-            height="35" viewBox="0 0 24 24">
+          width="35" height="35" viewBox="0 0 24 24">
+          <path
+          d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+        </svg>
+      </a>
+      
+      <a href="https://www.instagram.com/etechnologies123/"><svg xmlns="http://www.w3.org/2000/svg" width="35"
+        height="35" viewBox="0 0 24 24">
             <path
               d="M14.667 12c0 1.473-1.194 2.667-2.667 2.667-1.473 0-2.667-1.193-2.667-2.667 0-1.473 1.194-2.667 2.667-2.667 1.473 0 2.667 1.194 2.667 2.667zm3.846-3.232c.038.843.046 1.096.046 3.232s-.008 2.389-.046 3.233c-.1 2.15-1.109 3.181-3.279 3.279-.844.038-1.097.047-3.234.047-2.136 0-2.39-.008-3.232-.046-2.174-.099-3.181-1.132-3.279-3.279-.039-.845-.048-1.098-.048-3.234s.009-2.389.047-3.232c.099-2.152 1.109-3.181 3.279-3.279.844-.039 1.097-.047 3.233-.047s2.39.008 3.233.046c2.168.099 3.18 1.128 3.28 3.28zm-2.405 3.232c0-2.269-1.84-4.108-4.108-4.108-2.269 0-4.108 1.839-4.108 4.108 0 2.269 1.84 4.108 4.108 4.108 2.269 0 4.108-1.839 4.108-4.108zm1.122-4.27c0-.53-.43-.96-.96-.96s-.96.43-.96.96.43.96.96.96c.531 0 .96-.43.96-.96zm6.77-7.73v24h-24v-24h24zm-4 12c0-2.172-.009-2.445-.048-3.298-.131-2.902-1.745-4.52-4.653-4.653-.854-.04-1.126-.049-3.299-.049s-2.444.009-3.298.048c-2.906.133-4.52 1.745-4.654 4.653-.039.854-.048 1.127-.048 3.299 0 2.173.009 2.445.048 3.298.134 2.906 1.746 4.521 4.654 4.654.854.039 1.125.048 3.298.048s2.445-.009 3.299-.048c2.902-.133 4.522-1.745 4.653-4.654.039-.853.048-1.125.048-3.298z" />
           </svg>
         </a>
-
+        
         <a href="mailto: owner@etechinnovations.com"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"
-            viewBox="0 0 24 24">
-            <path
-              d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z" />
-          </svg>
-        </a>
-
-      </div>
+          viewBox="0 0 24 24">
+          <path
+          d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z" />
+        </svg>
+      </a>
 
     </div>
-
+    
+  </div>
+  
+  <div class="row">
+    <div id="footerA" class="col-md-5.5 flex">
+      <div class="d-flex flex-row">
+        <div>
+          <a href="./index.html">Home</a>
+        </div>
+        <div>
+          <a href="./web.html">Website Design</a>
+        </div>
+        <div>
+          <a href="./photos.html">Photos/Video</a>
+        </div>
+        <div>
+          <a href="#social-media">Social Media</a>
+        </div>
+        <div>
+          <a href="#advertising">Advertising</a>
+        </div>
+      </div>
+    </div>
     <div class="row">
-      <div id="footerA" class="col-md-5.5 flex">
-        <div class="d-flex flex-row">
-          <div>
-            <a href="">Home</a>
-          </div>
-          <div>
-            <a href="./web.html">Website Design</a>
-          </div>
-          <div>
-            <a href="./photos.html">Photos/Video</a>
-          </div>
-          <div>
-            <a href="#social-media">Social Media</a>
-          </div>
-          <div>
-            <a href="#advertising">Advertising</a>
-          </div>
-        </div>
+      
+      <div class="row text-center">
+        <a href="./privacy-policy.html">Read Our Terms and Conditions</a><br />
+        &copy; 2024 E TECHNOLOGIES LLC
       </div>
-      <div class="row">
-
-        <div class="row text-center">
-          <a href="./privacy-policy.html">Read Our Terms and Conditions</a><br />
-          &copy; 2024 E TECHNOLOGIES LLC
-        </div>
-
-      </div>
-
+      
     </div>
-
-
-  </footer>
+    
+  </div>
+  
+  
+</footer>
 </div>
 
+</body>
 </html>

@@ -40,9 +40,8 @@ Eric Schweitzer at E TECHNOLOGIES LLC
        
        -make sure to delete all images not being used....check again deleted a bunch 4-4
 
-        -video leaves space when small screen
-        -bottom large vide with text over doesnt have text in full screen and bottom is cut off
-       -
+     
+       -heroform not resonsive on modzilla fire fox...looks like it hangs over screen on right just a bit on chrome too
 
 
 <!-- https://freefrontend.com/css-hover-effects/page/3/ -->

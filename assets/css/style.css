@@ -862,6 +862,10 @@ background-position:center;
   margin: 10px;
 }
 
+.video-background2{
+  padding: 10px;
+}
+
 .video-background video {
   position: absolute;
   top: 50%;
