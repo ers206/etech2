@@ -1454,3 +1454,16 @@ background-position:center;
     width: 100%; 
   }
 }
+
+@media (max-width: 767px) {
+  #accImage .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* Ensure images are fluid and responsive */
+  #accImage img {
+    max-width: 100%;
+    height: auto;
+  }
+}
