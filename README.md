@@ -37,15 +37,16 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
  <!-- web page
        
-       -add phone number
+       
        -make sure to delete all images not being used....check again deleted a bunch 4-4
       -chaeck all text
-        -explain google translator on home page
+        
        -hover effects in footer 
-       -heroform not responsive on modzilla fire fox...looks like it hangs over screen on right just a bit on chrome too****doesnt seem like a bid deal see if there is a quick fix
-        -put <scripts> at bottom of body. I moved footer to body it was out
+
+        
         -add photos to insta and facebook before making public
         -advertise 
+        
 <!-- https://freefrontend.com/css-hover-effects/page/3/ -->
 
 
