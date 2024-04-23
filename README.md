@@ -39,14 +39,15 @@ Eric Schweitzer at E TECHNOLOGIES LLC
        
        
        -make sure to delete all images not being used....check again deleted a bunch 4-4
-      -chaeck all text
-        
-       -hover effects in footer 
+      -check all text
+        -techContainer need padding on top
+       -check links/hovers on each page
+       -look into domain from google
 
         
         -add photos to insta and facebook before making public
         -advertise 
-        
+
 <!-- https://freefrontend.com/css-hover-effects/page/3/ -->
 
 

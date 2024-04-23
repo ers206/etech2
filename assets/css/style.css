@@ -43,7 +43,7 @@ header h1 {
   font-size: 36px;
   color: var(--primary-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  font-family:Arial, Helvetica, sans-serif ; 
+  font-family: Arial, Helvetica, sans-serif;
   /* font-family: Hand  ;  */
 }
 
@@ -115,6 +115,7 @@ header nav ul li a:hover {
   margin: 5px;
   padding: 0%;
 }
+
 /* #footerPage{
   text-align: center;
 }
@@ -127,13 +128,14 @@ header nav ul li a:hover {
 .footerIcon:hover {
   fill: #0a2be4;
 }
+
 /* try to fill with multiple colors */
-.footerIcon2:hover{
-  fill:  #ee2a7b; 
+.footerIcon2:hover {
+  fill: #ee2a7b;
 }
 
-.footerIcon3:hover{
-  fill:   rgb(45, 233, 45); 
+.footerIcon3:hover {
+  fill: rgb(45, 233, 45);
 }
 
 .footer a {
@@ -178,9 +180,11 @@ header nav ul li a:hover {
 section {
   padding: 20px;
 }
-.contact {
+
+/* .contact {
   padding: 10px;
-}
+} */
+
 /* HERO STYLES START */
 .hero {
   background-image: url('../images/logoNoWriting.jpg');
@@ -368,7 +372,10 @@ section {
 .smS,
 .photo,
 .gallery1,
-.carouselSection, .webCard, .webColapse, .webNavbar {
+.carouselSection,
+.webCard,
+.webColapse,
+.webNavbar {
   background: var(--primary-color);
 }
 
@@ -376,6 +383,7 @@ section {
   max-width: 1000px;
   margin: 0 auto;
 }
+
 /* SOCIAL MEDIA section */
 .sm {
   margin: 50px auto;
@@ -489,7 +497,8 @@ section {
 /* adSTYLES END */
 
 /* REACH OUT STYLES START */
-.contact {
+/* *****************************************dont need "contact code" verify  */
+/* .contact {
   background: var(--secondary-color);
 }
 
@@ -567,7 +576,7 @@ section {
 
 .contact-info a {
   color: var(--primary-color);
-}
+} */
 
 /* REACH OUT STYLES END */
 
@@ -600,6 +609,7 @@ section {
       flex-direction: column;
     }
   }
+
   /* @media (min-width: 992px) {
     footer .footer {
     
@@ -707,6 +717,7 @@ background-position:center;
   .hero-form button {
     width: 100%;
   }
+
   /* .hero-form {
     padding: 0;
   } */
@@ -722,7 +733,7 @@ background-position:center;
     flex: 0 100%;
   }
 
-  .contact-info {
+  /* .contact-info {
     text-align: center;
   }
 
@@ -732,11 +743,10 @@ background-position:center;
 
   .contact-form {
     order: 3;
-  }
+  } */
 }
 
 
-/* Custom styling for smaller images */
 .img-thumbnail {
   max-width: 100%;
   height: auto;
@@ -744,23 +754,17 @@ background-position:center;
 }
 
 /* MODAL CSS */
-
-/* Limit the height of the modal content */
 .modal-content {
   max-height: 80vh;
-  /* You can adjust this value as needed */
   margin-top: 50px;
-  /* Adjust this margin based on your sticky header height */
 }
 
-/* Center the modal vertically */
 .modal-dialog {
   display: flex;
   align-items: center;
   min-height: calc(100% - 1rem);
 }
 
-/* Set a fixed width for images within the modal */
 .modal-body img {
   width: 100%;
   height: auto;
@@ -775,8 +779,6 @@ background-position:center;
 #myModal7 .modal-dialog,
 #myModal8 .modal-dialog {
   max-width: 80%;
-  /* Adjust the width of the modal container */
-  /* margin: auto; */
 }
 
 #myModal5 img,
@@ -784,13 +786,9 @@ background-position:center;
 #myModal7 img,
 #myModal8 img {
   max-width: 100%;
-  /* Ensure the image inside the modal doesn't exceed the container width */
   max-height: 70vh;
-  /* Set a maximum height for the image */
   height: auto;
-  /* Maintain the aspect ratio of the image */
   display: block;
-  /* margin: auto;  */
 }
 
 #myModal5 .modal-body,
@@ -798,10 +796,7 @@ background-position:center;
 #myModal7 .modal-body,
 #myModal8 .modal-body {
   text-align: center;
-  /* Center-align the text */
-  /* padding: 20px;  */
   overflow: auto;
-  /*Allow scrolling within the modal body if content is too large*/
 }
 
 
@@ -817,14 +812,25 @@ background-position:center;
 }
 
 .smS p,
-.adS p {
+.adS p,
+.webWeb p,
+.webTech p,
+.webColapse p,
+.webForm p,
+.webTable p,
+.webButton p,
+.webCard p,
+.videoSection p,
+.carouselSection p,
+.modalSection p,
+.gallery1 p,
+.bgImage p {
   line-height: 1.7;
   color: black;
   width: 80%;
   margin: 0 auto;
   font-size: 20px;
   text-align: center;
-
 }
 
 .photo p {
@@ -845,38 +851,22 @@ background-position:center;
 
 }
 
-
-
 #bgImage p {
   font-size: larger;
   line-height: 2;
 }
 
-/* Custom CSS */
-
-
-/* .video-background p {
-      color: rgb(58, 7, 243);
-    } */
-/* .overlay{ 
-
-} */
-/* .videoText{
-  opacity: 2;
-} */
-
-/* ***************************************** video is cut off on top might need to crop it****************************** */
 .video-background {
   position: relative;
   overflow: hidden;
   width: 100%;
   height: 100vh;
-  
+
   padding: 10px;
   margin: 10px;
 }
 
-.video-background2{
+.video-background2 {
   padding: 10px;
 }
 
@@ -901,50 +891,37 @@ background-position:center;
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
-  /* color: black;  */
 }
 
-.BottomVideoText p, .BottomVideoText h2{
-  /* color: white; */
-  /* font-size: 50px; */
+.BottomVideoText p,
+.BottomVideoText h2 {
   text-shadow: -1px 1px 0 #000,
-      1px 1px 0 #000,
-      1px -1px 0 #000,
-      -1px -1px 0 #000;
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
-/* deleted below div was holding top image on photo/video page  */
+
 .topVideo {
-  /* position: relative;
-  z-index: 1;
-  text-align: center;
-  color: #ffffff; */
-  /* min-width: auto;
-  min-height: 100%; */
   height: 100%;
   width: auto;
   padding-top: 10%;
   padding-bottom: 30%;
 }
-/* want text over youtube video  */
-/* .BottomVideoText{
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  
-} */
-/* .topVideo{
-  width: 100%;
-  height: auto;
-} */
 
-/* TECH section on web page  */
 .webTech {
   text-align: center;
-  /*  */
-  /* justify-content: space-around; */
+
 }
 
-
+.techContainer,
+.toggleE,
+.cardContainer,
+#buttonsContainer,
+.formContainer,
+.photoContainer,
+.topModalContainer, #myCarousel{
+  padding-top: 15px;
+}
 
 .tech-row {
   display: flex;
@@ -959,7 +936,6 @@ background-position:center;
 
 .icon {
   font-size: 150px;
-  /* Adjust the size as needed */
   display: block;
   margin-bottom: 10px;
   color: black;
@@ -973,66 +949,26 @@ background-position:center;
   flex-wrap: wrap;
 }
 
-/* **************************changing button section below may not be needed*/
 
-/* buttons ion web design page */
-.btn-custom-font1 {
-  font-family: 'Arial', sans-serif;
-  /* Example font family for Button 1 */
-}
 
-.btn-custom-font2 {
-  font-family: 'Times New Roman', serif;
-  /* Example font family for Button 2 */
-}
 
-.btn-custom-font3 {
-  font-family: 'Courier New', monospace;
-  /* Example font family for Button 3 */
-}
-
-.btn-custom-font4 {
-  font-family: 'Verdana', sans-serif;
-  /* Example font family for Button 4 */
-}
-
-.btn-custom-font5 {
-  font-family: 'Georgia', serif;
-  /* Example font family for Button 5 */
-}
-
-.btn-custom-font6 {
-  font-family: 'Comic Sans MS', cursive;
-  /* Example font family for Button 6 */
-}
-
-/* Align buttons in a row */
 .button-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* Center align the buttons horizontally */
   gap: 10px;
-  /* Add gap between buttons */
   padding-top: 10px;
 }
 
-/* Adjust button styles as needed */
 .btn {
-  /* Add common styles for buttons */
   padding: 10px 20px;
   border-radius: 5px;
 }
 
-/* use this for a button right now it takes up a whole witdth of screen on practice.html */
 .hover-2 {
   --c: #1095c1;
-  /* the color */
   --b: .1em;
-  /* border length*/
   --d: 20px;
-  /* the cube depth */
-
   --_s: calc(var(--d) + var(--b));
 
   color: var(--c);
@@ -1044,7 +980,6 @@ background-position:center;
     conic-gradient(at left var(--_s) bottom var(--_s),
       #0000 90deg, var(--c) 0) 0 100%/calc(100% - var(--b)) calc(100% - var(--b)) border-box;
   transform: translate(calc(var(--d)/-1), var(--d));
-  /* transform: translate(calc(var(--d)/-1), calc(var(--d)/-1.5)); */
 
   clip-path:
     polygon(var(--d) 0%,
@@ -1054,12 +989,9 @@ background-position:center;
       100% calc(100% - var(--d)),
       var(--d) calc(100% - var(--d)));
   transition: 0.5s;
-  /* padding-left: 20px; */
 }
 
-/* .hover2div{
-  padding:10px;
-} */
+
 
 .hover-2:hover {
   transform: translate(0, 0);
@@ -1072,15 +1004,11 @@ background-position:center;
       0% 100%);
 }
 
-/* *********************changing button section below may not be needed */
 #hoverB1:hover {
-  /* color: pink; */
   background-color: green;
-  /* font-size: xx-large */
 }
 
 #hoverB2:hover {
-  /* color: pink; */
   color: red
 }
 
@@ -1098,7 +1026,6 @@ background-position:center;
 }
 
 
-/*  navbar css not sure how if im going to use below**************** */
 #navbar2 .navbar-nav .nav-item {
   margin-right: 15px;
 }
@@ -1115,7 +1042,6 @@ background-position:center;
   background-color: #f0f0f0;
 }
 
-/* Custom CSS for centering the navbar items */
 #navbar2 .navbar-nav {
   flex-direction: row;
   justify-content: flex-end;
@@ -1126,19 +1052,18 @@ background-position:center;
 }
 
 
-/* Custom CSS for Navbar 3 */
-#needLower{
+/* #needLower {
   position: absolute;
   top: 30%;
-}
-/*  cant get navbars (navbar3 and navbar5 to addjust to screens below 768px */
-#navbar3{
+} */
+
+/* #navbar3 {
   display: flex;
   flex-wrap: wrap;
 }
+
 #navbar3 .navbar-nav .nav-item {
   margin-right: 20px;
-  /* justify-content: space-around; */
 }
 
 #navbar3 .navbar-brand,
@@ -1153,7 +1078,6 @@ background-position:center;
   background-color: #007bff;
 }
 
-/* Custom CSS for Navbar 5 */
 #navbar5 .navbar-nav .nav-item {
   margin-right: 10px;
 }
@@ -1174,7 +1098,6 @@ background-position:center;
   width: 300px;
 }
 
-/* Custom CSS for Centered Text Navbar */
 #navbar6 .navbar-brand {
   margin-left: auto;
   margin-right: auto;
@@ -1200,10 +1123,9 @@ background-position:center;
 #navbar6 .navbar-brand:hover,
 #navbar6 .nav-link:hover {
   background-color: #f0f0f0;
-}
+} */
 
 .accordion-item img {
-  /* max-width: 100%;  */
   width: 400px;
   height: 300px;
 }
@@ -1215,11 +1137,7 @@ background-position:center;
   text-align: center;
 }
 
-/* 
-#accImage {
-  justify-content: space-between;
-  background-color: #f0d83b; 
-} */
+
 
 
 
@@ -1255,12 +1173,13 @@ background-position:center;
   -o-transition-delay: 0s;
   transition-delay: 0s;
 }
+
 .ag-offer_visible-item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
   display: -ms-flexbox;
-  display:flex;
+  display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -moz-box-align: center;
@@ -1280,11 +1199,13 @@ background-position:center;
   -o-transition: .4s .3s;
   transition: .4s .3s;
 }
+
 .ag-offer_img {
   height: 64px;
   width: 64px;
   margin: 0 15px 0 0;
 }
+
 .ag-offer_title {
   font-size: 22px;
 
@@ -1292,6 +1213,7 @@ background-position:center;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 .ag-offer_hidden-item {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1325,6 +1247,7 @@ background-position:center;
   -o-transition: .3s;
   transition: .3s;
 }
+
 .ag-offer_item:hover .ag-offer_hidden-item {
   opacity: 1;
 
@@ -1339,6 +1262,7 @@ background-position:center;
   -o-transition-delay: .3s;
   transition-delay: .3s;
 }
+
 .ag-offer_text {
   max-width: 100%;
 
@@ -1352,22 +1276,22 @@ background-position:center;
   -o-transition: .3s .5s;
   transition: .3s .5s;
 }
+
 .ag-offer_item:hover .ag-offer_text {
   opacity: 1;
 }
 
-/* took out below div */
+
 @media only screen and (max-width: 767px) {
-  /* .ag-format-container {
-    width: 96%;
-  } */
+
 
   .ag-offer_item {
     width: 100%;
-    margin:  0 0 30px;
+    margin: 0 0 30px;
     border: 0 none !important;
     border-bottom: 1px solid #c1c1c1 !important;
   }
+
   .ag-offer_visible-item {
     padding: 0 20px 30px;
 
@@ -1377,6 +1301,7 @@ background-position:center;
     -ms-flex-pack: start;
     justify-content: flex-start;
   }
+
   .ag-offer_item:hover .ag-offer_visible-item {
     opacity: 1;
 
@@ -1386,6 +1311,7 @@ background-position:center;
     -o-transform: none;
     transform: none;
   }
+
   .ag-offer_hidden-item {
     padding: 0 20px 20px;
 
@@ -1399,6 +1325,7 @@ background-position:center;
     -o-transform: none;
     transform: none;
   }
+
   .ag-offer_item:nth-child(1) .ag-offer_hidden-item,
   .ag-offer_item:nth-child(2) .ag-offer_hidden-item,
   .ag-offer_item:nth-child(3) .ag-offer_hidden-item,
@@ -1407,18 +1334,22 @@ background-position:center;
   .ag-offer_item:nth-child(6) .ag-offer_hidden-item {
     background-color: transparent;
   }
+
   .ag-offer_item:hover .ag-offer_text {
     opacity: 1;
   }
+
   .ag-offer_title {
     font-weight: bold;
   }
+
   .ag-offer_text {
     opacity: 1;
 
     font-size: 18px;
     color: #000;
   }
+
   .ag-offer_btn {
     border: 2px solid #0000d1;
     background-color: #000080;
@@ -1435,37 +1366,37 @@ background-position:center;
 
 @media only screen and (max-width: 600px) {
   #bgImage p {
-      font-size: medium
+    font-size: medium
   }
 }
 
 @media only screen and (max-width: 500px) {
   #bgImage p {
-      font-size: small
+    font-size: small
   }
 }
 
 @media only screen and (max-width: 375px) {
   #bgImage p {
-      font-size: smaller
+    font-size: smaller
   }
 }
 
 @media (max-width: 768px) {
   .BottomVideoText {
-    width: 80%; 
+    width: 80%;
   }
 }
 
 @media (max-width: 576px) {
   .BottomVideoText {
-    width: 100%; 
+    width: 100%;
   }
 }
 
 @media (max-width: 476px) {
   .BottomVideoText {
-    width: 100%; 
+    width: 100%;
   }
 }
 
@@ -1475,7 +1406,6 @@ background-position:center;
     max-width: 100%;
   }
 
-  /* Ensure images are fluid and responsive */
   #accImage img {
     max-width: 100%;
     height: auto;
