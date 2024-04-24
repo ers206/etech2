@@ -39,7 +39,7 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!--      
         -check resposivness and links/hovers one last time  
        -look into domain from google
-        
+        -add video but dont save
         -add photos to insta and facebook before making public
         -advertise 
  -->
