@@ -31,23 +31,17 @@ Constructed using HTML, CSS, and Bootstrap, this website offers a glimpse into t
 ## contribution
 Eric Schweitzer at E TECHNOLOGIES LLC
 
-&copy; E TECHNOLOGIES LLC
+&copy; E TECHNOLOGIES LLC 2024
 
 <
 
- <!-- web page
-       
-       
-       -make sure to delete all images not being used....check again deleted a bunch 4-4
-      -check all text
-        -techContainer need padding on top
-       -check links/hovers on each page
+ 
+<!--      
+        -check resposivness and links/hovers one last time  
        -look into domain from google
-
         
         -add photos to insta and facebook before making public
         -advertise 
-
-<!-- https://freefrontend.com/css-hover-effects/page/3/ -->
+ -->
 
 
